@@ -1,0 +1,33 @@
+.pinterest__container {
+  width: 0;
+  padding: 0;
+  width: 80vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Adjusted column sizing */
+  grid-auto-rows: 10px;
+}
+
+/* Media query for adjusting grid template columns for landscape images */
+@media (min-width: 600px) {
+  .pinterest__container {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(300px, 1fr)
+    ); /* Adjusted for landscape images */
+  }
+}
+
+.title__gallery h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 100;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid black;
+}

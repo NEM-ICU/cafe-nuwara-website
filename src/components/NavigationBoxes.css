@@ -1,0 +1,47 @@
+.navigation__boxes {
+  margin-top: 1rem !important;
+}
+
+.boxes__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.first__img__box {
+  width: 30rem;
+}
+
+.second__img__box {
+  width: 30rem;
+}
+
+.third__img__box {
+  width: 30rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+  .navigation__boxes {
+    margin-top: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+}

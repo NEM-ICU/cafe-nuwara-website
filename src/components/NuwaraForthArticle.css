@@ -1,0 +1,48 @@
+/* Title Styling */
+
+.article__title__kandy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article__title__kandy h2 {
+  font-size: 4rem;
+}
+
+.article__title__kandy img {
+  margin: 0;
+  padding: 0;
+  width: 12rem;
+}
+
+.article__title__kandy .rink {
+  width: 100rem;
+  height: 8rem;
+}
+
+/* title margin */
+.article__title__kandy {
+  margin: 3rem 0;
+}
+
+/* content box layout */
+
+.forth__article__content {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* image sizing */
+
+.forth__article__column__one img {
+  width: 30rem;
+}
+
+/* style text */
+.forth__article__content {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}

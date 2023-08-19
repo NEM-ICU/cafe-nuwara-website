@@ -1,0 +1,104 @@
+.article__main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  border-top: 2px solid black;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 100;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.article__main .first__paragraph {
+  display: flex;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}
+
+.article__main .first__paragraph img {
+  width: 30rem;
+  height: 42rem;
+  object-fit: cover;
+  padding: 0.8rem;
+  border: 3.5px solid #545454;
+  margin: 0 !important;
+}
+
+.article__main .second__paragraph img {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+}
+
+.article__wrapper img {
+  margin: 3rem 0;
+  padding: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+
+.first__paragraph {
+  margin-top: 2rem;
+}
+
+.article__main {
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
+.main__paragraph__wrapper p {
+  margin: 0 2rem;
+  padding-bottom: 1rem;
+}
+
+.second__paragraph {
+  margin-top: 2rem;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}
+
+.second__paragraph p {
+  padding-bottom: 1rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+  .article__wrapper .title h1 {
+    text-align: center;
+    font-size: 4.2rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+  .article__main .first__paragraph img {
+    width: 28rem;
+    height: 42rem;
+  }
+
+  .article__main .second__paragraph img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+}

@@ -1,0 +1,186 @@
+.welcome__page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.ayubowan__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 4rem;
+
+  font-family: "Lohit Devanagari";
+  font-size: 1.6rem;
+  letter-spacing: 0rem;
+  font-weight: 700;
+}
+
+.main__title__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 3.2rem;
+  letter-spacing: 1rem;
+  margin-top: 12rem;
+}
+
+.main__title {
+  margin-bottom: 2rem;
+}
+
+.main__title__container .slogan {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.6rem;
+}
+
+.main__title__container .main__logo {
+  margin-top: 8rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.welcome__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 1.4rem;
+  gap: 0.8rem;
+  padding-bottom: 2rem;
+}
+
+/* responsive */
+/* Media Queries */
+
+/* Below 1344px */
+@media screen and (max-width: 1344px) {
+  .main__title__container {
+    font-size: 3rem;
+    margin-top: 10vw;
+  }
+
+  .main__title__container .slogan {
+    font-size: 1.7rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .main__title__container .main__logo {
+    margin-top: 8vw;
+    height: 9rem;
+    width: 9rem;
+  }
+
+  .welcome__container {
+    font-size: 1.2rem;
+  }
+
+  .ayubowan__container {
+    font-size: 1.2rem;
+  }
+}
+
+/* Below 1200px */
+@media screen and (max-width: 1200px) {
+  .main__title__container {
+    font-size: 2.8rem;
+    margin-top: 8vw;
+  }
+
+  .main__title__container .slogan {
+    font-size: 1.3rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .main__title__container .main__logo {
+    margin-top: 6vw;
+    height: 8rem;
+    width: 6rem;
+  }
+
+  .welcome__container {
+    font-size: 1.1rem;
+  }
+}
+
+/* Below 944px */
+@media screen and (max-width: 944px) {
+  .main__title__container {
+    font-size: 2.5rem;
+    margin-top: 6vw;
+  }
+
+  .main__title__container .slogan {
+    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+  }
+
+  .main__title__container .main__logo {
+    margin-top: 4vw;
+    height: 6rem;
+    width: 5rem;
+  }
+
+  .welcome__container {
+    font-size: 1rem;
+  }
+}
+
+/* Below 704px */
+@media screen and (max-width: 704px) {
+  .main__title__container {
+    font-size: 2.3rem;
+    margin-top: 4vw;
+  }
+
+  .main__title__container .slogan {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .main__title__container .main__logo {
+    margin-top: 2vw;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .welcome__container {
+    font-size: 0.9rem;
+  }
+}
+
+/* Below 544px */
+@media screen and (max-width: 544px) {
+  .welcome__page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+  }
+
+  .main__title__container {
+    font-size: 2.2rem;
+    margin-top: 2vw;
+
+    text-align: center;
+  }
+
+  .main__title__container .slogan {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .main__title__container .main__logo {
+    margin-top: 3rem;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .welcome__container {
+    font-size: 0.8rem;
+  }
+}

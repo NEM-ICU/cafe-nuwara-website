@@ -1,0 +1,105 @@
+.third__article {
+  margin-top: 10rem !important;
+  margin-bottom: 10rem !important;
+
+  font-size: 1.7rem;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}
+
+.third__article__wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.third__article__wrapper .second__box {
+  margin: 0 !important;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.5rem;
+}
+
+.third__article__wrapper .first__box {
+  display: block;
+}
+
+.third__article__wrapper .first__box img {
+  width: 62rem;
+
+  padding: 0.8rem;
+  border: 3.5px solid #545454;
+}
+
+.third__article__wrapper .second__box img {
+  width: 10rem;
+}
+/* BUTTON  STYLES */
+
+.o-btn--decorative {
+  position: relative;
+  border-color: transparent;
+  font-family: "Cheltenham", Times, serif;
+  font-style: italic;
+  text-transform: none;
+  background-color: #5b5b5b;
+  color: #fff;
+  filter: none;
+
+  width: 100%;
+  font-size: 1.5em;
+  padding: 5px 0;
+  margin-top: 1.5rem;
+
+  z-index: -1;
+}
+
+.o-btn--decorative:before,
+.o-btn--decorative:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 1px solid #383a3b;
+}
+
+.o-btn--decorative:before {
+  top: -1px;
+  left: -4px;
+  width: calc(100% + 8px);
+  height: calc(100% + 2px);
+}
+
+.o-btn--decorative:after {
+  top: -4px;
+  left: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 8px);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+  .third__article__wrapper {
+    display: flex;
+    gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+}

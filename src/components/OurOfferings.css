@@ -1,0 +1,147 @@
+.our__offerings {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}
+
+.our__offerings .title {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+}
+
+.first__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 3rem;
+}
+
+.first__box .first__content__box img,
+.first__box .second__content__box img,
+.first__box .third__content__box img,
+.second__box .first__content__box img,
+.second__box .second__content__box img,
+.second__box .third__content__box img {
+  object-fit: cover;
+  /* padding: 0.8rem; */
+  border: 3.5px solid #545454;
+
+  /* margin: 1rem !important; */
+}
+
+.first__box .first__content__box img {
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.first__box .second__content__box img {
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.first__box .third__content__box img {
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.second__box .first__content__box img {
+  width: 40rem;
+  padding: 0.8rem;
+}
+
+.second__box .second__content__box img {
+  width: 40rem;
+  padding: 0.8rem;
+}
+
+.second__box .third__content__box img {
+  width: 35rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.second__box__wrapper {
+  display: flex;
+  gap: 3rem;
+}
+
+.second__box {
+  margin-top: 3rem;
+}
+
+.our__offerings__wrapper .second__box__wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.second__box__wrapper .first__column .first__content__box {
+  display: flex;
+  gap: 1rem;
+}
+
+.second__box__wrapper .first__column .second__content__box {
+  display: flex;
+  gap: 1rem;
+}
+
+.second__box__wrapper .first__column {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.offering__heading {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+#work__from__cafe__h2 {
+  margin-top: 0 !important;
+}
+
+#barista__img {
+  margin-top: 5.65rem;
+}
+
+.our__offerings__paragraph_1 {
+  margin-top: 1rem;
+}
+
+.our__offerings__paragraph_3 {
+  margin-bottom: 1rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+  .first__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .our__offerings__wrapper .second__box__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+}

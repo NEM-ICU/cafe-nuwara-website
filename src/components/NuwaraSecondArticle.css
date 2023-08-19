@@ -1,0 +1,34 @@
+.second__article__nuwara {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}
+
+.nuwara__first__content__box img {
+  width: 40rem;
+  margin: 3rem;
+}
+
+.nuwara__second__content__box img {
+  width: 30rem;
+  margin: 1rem;
+}
+
+.nuwara__second__article__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin-top: 5rem !important;
+}
+
+.nuwara__second__content__box {
+  display: flex;
+  flex-direction: column;
+}
+.first__row__box {
+  display: flex;
+}
+
+.second__row__box {
+  display: flex;
+}

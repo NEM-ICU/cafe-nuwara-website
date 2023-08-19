@@ -1,0 +1,60 @@
+.dropdown {
+  position: sticky;
+  top: 4.7rem;
+}
+
+.dropdown__wrapper {
+  background-image: url("/assets/img/bg-texture-01.png");
+  background-size: 512px;
+  display: grid;
+  top: calc(100% + 4px);
+  padding: 3.2rem 0;
+  box-shadow: 0 -4px 0 rgba(56, 58, 59, 0.16), 0 2px 16 rgba(56, 58, 59, 0.16),
+    0 1px 0 rgba(56, 58, 59, 0.08);
+  text-align: left;
+  list-style: none;
+}
+
+.dropdown__overlay__span {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: block;
+  background-color: rgba(248, 246, 232, 0.72);
+}
+
+.dropdown__menu {
+  z-index: 3;
+  display: grid;
+  grid-column: 2 / span 8;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.dropdown__item {
+  list-style: none;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.dropdown__link {
+  all: unset;
+  cursor: pointer;
+}
+
+.dropdown__item-desc {
+  margin-top: 1rem;
+  display: block;
+  font-size: 1.4rem;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}

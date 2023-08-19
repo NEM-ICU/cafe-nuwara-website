@@ -1,0 +1,36 @@
+.kandy__first__article {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}
+
+.article__wrapper .title__kandy h2 {
+  font-size: 4rem;
+}
+
+.article__wrapper .title__kandy img {
+  margin: 0;
+  padding: 0;
+  width: 12rem;
+}
+
+.article__wrapper .title__kandy .rink {
+  width: 100rem;
+  height: 7rem;
+}
+
+.title__kandy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first__paragraph__nuwara p {
+  padding-bottom: 1rem;
+}
+
+.separator__image img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}

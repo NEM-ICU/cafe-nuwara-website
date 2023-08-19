@@ -1,0 +1,201 @@
+.footer::before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-top: 1px solid black;
+  top: -4px;
+  left: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 8px);
+}
+
+.footer {
+  border-top: 2px solid #383a3b;
+  /* box-shadow: 0 1px 0 #f6f3ee, 0 2px 0 #383a3b; */
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-family: "Gill Sans";
+  margin-top: 4rem;
+  position: relative;
+
+  text-transform: capitalize;
+}
+
+.footer .footer__wrapper {
+  display: block;
+  padding-top: 6.4rem;
+}
+
+/* First and Second Containers (Top Row) */
+.top__row {
+  display: flex;
+  gap: 2rem;
+}
+
+.first__row {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+}
+
+.footer__wrapper .first__row .first__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  border-right: 2px solid #9a9a9a;
+}
+
+.first__container,
+.second__container {
+  flex: 1; /* Equal width for both containers */
+}
+
+.first__container .review__container img {
+  max-width: 20rem;
+  max-height: 10rem;
+}
+
+.second__container .footer__nav__column2 {
+  text-align: center;
+
+  font-family: "Cheltenham";
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.second__container .footer__nav__column2 img {
+  max-height: 10rem;
+  margin-top: 1rem;
+}
+
+.footer__wrapper .first__row {
+  margin-bottom: 4rem;
+}
+
+/* Third Container (Bottom) */
+.third__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  border-top: 1px solid #383a3b;
+}
+
+.footer__wrapper .third__container .first__box {
+  font-family: "Cheltenham";
+  font-style: italic;
+}
+
+.third__container .third__box img {
+  width: 4rem;
+}
+
+/* Footer Navigation Wrapper */
+.footer__nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer Navigation Columns */
+.footer__nav__column1,
+.footer__nav__column3 {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Footer Navigation Links */
+.footer__nav__link {
+  all: unset;
+}
+
+/* Third Box */
+.third__box {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__nav__column1 .coloumn__wrapper {
+  display: flex;
+  gap: 5.5rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer__nav__column2 {
+  margin-top: 1.5rem;
+}
+
+.footer__nav__column3 .coloumn__wrapper {
+  display: flex;
+  gap: 5.5rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer__wrapper .third__container .first__box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer__wrapper .third__container .second__box {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Cheltenham";
+  font-style: italic;
+}
+
+.footer__wrapper .third__container .third__box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  font-style: italic;
+}
+
+.third__container .third__box .item2 img {
+  width: 4.6rem;
+}
+
+/* .third__container .third__box .item3 img {
+}
+
+.third__container .third__box .item4 img {
+} */
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+  .first__row {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__nav__wrapper {
+    flex-direction: column;
+  }
+  .third__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+}
