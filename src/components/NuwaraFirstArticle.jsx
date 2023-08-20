@@ -8,7 +8,7 @@ const NuwaraFirstArticle = () => {
       <section className="kandy__first__article container">
         <div className="article__wrapper">
           <div className="title__kandy">
-            <img src="/public/assets/svg/flower3.svg" alt="flower" />
+            <img src="/public/assets/svg/flower2.svg" alt="flower" />
             <h2>The Kingdom Of Kandy</h2>
             <img
               src="/public/assets/svg/rink-black.svg"
@@ -23,7 +23,7 @@ const NuwaraFirstArticle = () => {
               Sinhalese kingdom, reflects the essence of our heritage and
               culture.
             </p>
-            <p>
+            <p id="first__paragraph__second__p">
               Amid the verdant hills of Sri Lanka, a kingdom emerged, a realm of
               splendor known as Kandy. Kings, like titans of history, ruled with
               grace and valor, their footsteps etched in the annals of time.
@@ -45,7 +45,7 @@ const NuwaraFirstArticle = () => {
         </div>
       </section>
       <div className="separator__image">
-        <img src="/public/assets/img/embakke-devalaya.jpg" alt="" />
+        <img src="/public/assets/img/nuwara-first-photo.jpg" alt="" />
       </div>
     </>
   );
