@@ -7,7 +7,11 @@ const NuwaraSecondArticle = () => {
       <div className="second__article__nuwara">
         <div className="nuwara__second__article__wrapper container">
           <div className="nuwara__first__content__box">
-            <img src="/public/assets/img/king.jpg" alt="king" />
+            <img
+              src="/public/assets/img/rajasinghe-nuwara.png"
+              id="rajasinghe__img"
+              alt="king"
+            />
             <p>
               King Sri Vikrama Rajasinha, reigning during the late 18th and
               early 19th centuries, emerges as a pivotal figure in Kandy's
@@ -26,7 +30,7 @@ const NuwaraSecondArticle = () => {
           <div className="nuwara__second__content__box">
             <div className="first__row__box">
               <img src="/public/assets/img/history1.webp" alt="history-logo" />
-              <p>
+              <p id="flag__paragraph">
                 The old Kandyan flag, a storied relic, unfurls tales of a
                 majestic era in Sri Lanka's central highlands. Its intricate
                 motifs and regal hues evoke the grandeur of Kandyan royalty,
@@ -50,7 +54,11 @@ const NuwaraSecondArticle = () => {
                 </p>
               </div>
               <div className="second__column__box">
-                <img src="/public/assets/img/history3.jpg" alt="history-img3" />
+                <img
+                  src="/public/assets/img/history3.jpg"
+                  id="royal__palace__img"
+                  alt="history-img3"
+                />
                 <p>
                   Perched amidst misty peaks, the Royal Palace of Kandy unveils
                   a storied past through its ornate design and tranquil gardens.
