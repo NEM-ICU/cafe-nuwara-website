@@ -1,22 +1,26 @@
 .kandy__first__article {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
+  text-align: justify;
   line-height: 1.2;
   letter-spacing: 0.3px;
 }
 
 .article__wrapper .title__kandy h2 {
   font-size: 4rem;
+  font-style: normal;
 }
 
 .article__wrapper .title__kandy img {
   margin: 0;
   padding: 0;
-  width: 12rem;
+  width: 15rem;
 }
+
+/* mala haduwa */
 
 .article__wrapper .title__kandy .rink {
   width: 100rem;
-  height: 7rem;
+  height: 5rem;
 }
 
 .title__kandy {
@@ -26,7 +30,14 @@
 }
 
 .first__paragraph__nuwara p {
-  padding-bottom: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+#first__paragraph__second__p {
+  margin-top: 1rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .separator__image img {
