@@ -30,14 +30,14 @@
 
 .forth__article__content {
   display: grid;
-  gap: 10px;
+  gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* image sizing */
 
 .forth__article__column__one img {
-  width: 30rem;
+  width: 100%;
 }
 
 /* style text */
@@ -45,4 +45,16 @@
   font-size: 1.7rem;
   line-height: 1.2;
   letter-spacing: 0.3px;
+}
+
+.kandy__forth__article__wrapper {
+  text-align: justify;
+}
+
+.kandy__forth__article__wrapper .forth__article__column__two p {
+  margin-bottom: 3rem;
+}
+
+.kandy__forth__article__wrapper .forth__article__column__three p {
+  margin-bottom: 3rem;
 }

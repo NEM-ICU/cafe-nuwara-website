@@ -4,8 +4,8 @@ import "./NuwaraThirdArticle.css";
 const NuwaraThirdArticle = () => {
   return (
     <section>
-      <div className="nuwara__third__article">
-        <div className="nuwara__third__article__wrapper container">
+      <div className="nuwara__third__article container">
+        <div className="nuwara__third__article__wrapper ">
           <div className="third__article__first__column">
             <div className="article__title">
               <h1> The Temple of Tooth Relic</h1>

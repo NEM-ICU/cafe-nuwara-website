@@ -7,7 +7,6 @@
   grid-template-rows: 100px 100px 100px 100px;
   grid-template-columns: repeat(9, 118px);
 
-  background-color: cadetblue;
   gap: 0.9rem;
 }
 

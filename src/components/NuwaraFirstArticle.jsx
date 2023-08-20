@@ -23,7 +23,7 @@ const NuwaraFirstArticle = () => {
               Sinhalese kingdom, reflects the essence of our heritage and
               culture.
             </p>
-            <p>
+            <p id="first__paragraph__second__p">
               Amid the verdant hills of Sri Lanka, a kingdom emerged, a realm of
               splendor known as Kandy. Kings, like titans of history, ruled with
               grace and valor, their footsteps etched in the annals of time.

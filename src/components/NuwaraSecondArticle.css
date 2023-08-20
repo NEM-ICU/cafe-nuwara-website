@@ -1,22 +1,21 @@
 .second__article__nuwara {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
+  text-align: justify;
   line-height: 1.2;
   letter-spacing: 0.3px;
 }
 
 .nuwara__first__content__box img {
   width: 40rem;
-  margin: 3rem;
 }
 
 .nuwara__second__content__box img {
-  width: 30rem;
-  margin: 1rem;
+  width: 32rem;
 }
 
 .nuwara__second__article__wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 4fr;
 
   margin-top: 5rem !important;
 }
@@ -31,4 +30,34 @@
 
 .second__row__box {
   display: flex;
+}
+
+/* second article boxes */
+/* box 1 */
+.nuwara__second__article__wrapper .nuwara__first__content__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nuwara__second__article__wrapper .nuwara__first__content__box p {
+  margin-top: 1rem;
+  max-width: 40rem;
+}
+
+/* box 2 */
+
+.nuwara__second__content__box .first__row__box {
+  display: flex;
+  gap: 2rem;
+
+  padding-bottom: 2rem;
+  border-bottom: 2px solid black;
+}
+
+/* 3rd box */
+
+.nuwara__second__content__box .second__row__box {
+  gap: 2rem;
+  margin-top: 2rem;
 }

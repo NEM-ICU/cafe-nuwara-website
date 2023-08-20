@@ -13,6 +13,9 @@ import Navbar from "./components/Navbar";
 import Menu from "./pages/Menu";
 import Store from "./pages/Store";
 import Gallery from "./pages/Gallery";
+import ContactUs from "./pages/ContactUs";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import UnderConstruction from "./pages/UnderConstruction";
 
 function App() {
   const router = createBrowserRouter(
@@ -30,6 +33,9 @@ function App() {
         <Route path="menu" element={<Menu />} />
         <Route path="store" element={<Store />} />
         <Route path="gallery" element={<Gallery />} />
+        <Route path="contact" element={<ContactUs />} />
+        <Route path="policy" element={<PrivacyPolicy />} />
+        <Route path="construction" element={<UnderConstruction />} />
       </Route>
     )
   );
