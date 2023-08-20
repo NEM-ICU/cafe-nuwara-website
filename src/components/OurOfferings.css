@@ -4,6 +4,10 @@
   letter-spacing: 0.3px;
 }
 
+.our__offerings p {
+  text-align: justify;
+}
+
 .our__offerings .title {
   text-align: center;
   font-size: 4.5rem;
@@ -17,7 +21,7 @@
 
 .first__box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   gap: 3rem;
 }
@@ -37,13 +41,11 @@
 }
 
 .first__box .second__content__box img {
-  width: 100%;
-  padding: 0.8rem;
+  width: 35rem;
 }
 
 .first__box .third__content__box img {
-  width: 100%;
-  padding: 0.8rem;
+  width: 35rem;
 }
 
 .second__box .first__content__box img {
@@ -99,100 +101,33 @@
   margin: 1rem 0;
 }
 
-#work__from__cafe__heading {
-  margin-top: 1 !important;
-  margin-left: 1rem;
+/* our offering layout edit */
+
+.first__box__second__layout .second__content__box {
+  display: flex;
+  gap: 2rem;
+}
+
+.first__box__second__layout .third__content__box {
+  display: flex;
+  gap: 3rem;
 }
 
 #barista__img {
-  margin-top: 5.65rem;
-  height: 305px;
-  border-bottom: solid 2px #545454;
-  /* border-image-outset: 1rem; */
-  padding-bottom: 2rem;
-  width: 100%;
-  padding-left: 1rem;
-  padding-right: 0.4rem;
-  object-fit: cover;
+  margin-top: 5.7rem;
+  padding-bottom: 4.5rem;
+  border-bottom: 2px solid #383a3b;
 }
 
-.our__offerings__paragraph_1 {
-  margin-top: 1rem;
-}
-
-.our__offerings__paragraph_3 {
-  margin-bottom: 1rem;
-  margin-top: 2.7rem;
-  padding-left: 0.8rem;
-  padding-right: 0.5rem;
-}
-#events_and_parties_img {
-  margin-top: 9rem;
-  height: 240px;
-  width: 100%;
-  object-fit: cover;
-  /* border-top: #545454 solid 2px; */
-  /* padding-top: 1rem; */
-}
-.events_and_parties_heading {
-  margin-top: 2rem;
-  padding-left: 0.8rem;
-}
-.barista_heading {
-  margin-top: 1.8rem;
-}
-.our__offering_p {
-  text-align: justify;
-}
-.our__offerings__paragraph_2 {
-  /* border-right: #545454 2px solid; */
-  /* padding-left: 2px; */
-  margin-top: 2.7rem;
-}
-#photo_and_video_shoots_img {
-  padding-left: 0.3rem;
+#evets__and__parties__heading {
   margin-top: 3rem;
-  object-fit: cover;
+  margin-bottom: 2rem;
 }
-#work_from_cafe_img {
-  /* width: 395px; */
-  /* padding-right: 0.3rem; */
-  width: 375px;
-  margin-left: 1.8rem;
-  margin-top: 2rem;
-  object-fit: cover;
+
+#barista__heading {
+  margin-bottom: 2rem;
 }
-.photo_and_video_shoots_heading {
-  margin-left: 2.6rem;
-}
-.our__offerings__paragraph_4 {
-  margin-left: 2rem;
-  margin-right: 0rem;
-  padding-right: 0.1rem;
-  margin-top: 2.7rem;
-}
-/* #work_from_cafe_img { */
-/* height: 400px; */
-/* margin-top: 2rem; */
-/* } */
-.our__offerings__paragraph_6 {
-  margin-left: 1.9rem;
-  margin-right: 0.6rem;
-}
-#corporate_get_togethers_img {
-  width: 375px;
-  margin-right: 0rem;
-  border-top: #545454 solid 2px;
-  padding-top: 7rem;
-  object-fit: cover;
-}
-.corporate_get_togethers_heading {
-  margin-top: 7rem;
-}
-.our__offerings__paragraph_5 {
-  margin-top: 2.7rem;
-  margin-right: 2rem;
-}
+
 /* Responsive */
 
 @media screen and (max-width: 1344px) {

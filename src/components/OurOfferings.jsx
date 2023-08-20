@@ -22,41 +22,51 @@ const OurOfferings = () => {
               a touch of Kandyan charm unite to create unforgettable moments.
             </p>
           </div>
-          <div className="second__content__box">
-            <img
-              src="/public/assets/img/barista 1.jpg"
-              id="barista__img"
-              alt="barista-image"
-            />
-            <h2 className="offering__heading events_and_parties_heading">
-              Events & Parties
-            </h2>
-            <p className="our__offerings__paragraph_3 our__offering_p">
-              {" "}
-              Elevate Your Occasions: Experience the fusion of colonial grace
-              and Kandyan flair in our versatile venue. From intimate gatherings
-              to grand celebrations, our unique ambiance and cuisine create
-              unforgettable events. Let us craft moments that blend tradition
-              and modernity, making your special occasions truly timeless.
-            </p>
-          </div>
-          <div className="third__content__box">
-            <h2 className="offering__heading barista_heading">Barista</h2>
-            <p className="our__offerings__paragraph_2 our__offering_p">
-              Crafting Coffee Elegance: Our Barista, a true artisan,
-              meticulously curates coffee experiences that harmonize the
-              timeless allure of colonial era with the vibrant spirit of Kandyan
-              heritage. With each pour, they blend the past and present,
-              offering you a symphony of flavors that reflect the essence of Sri
-              Lanka. Join us in savoring every sip as our Barista's expertise
-              unfolds in every cup, weaving a tale of tradition and innovation
-              that captures the essence of our cafe's cultural fusion.
-            </p>
-            <img
-              src="/public/assets/img/owr-offerings-img-2.jpg"
-              id="events_and_parties_img"
-              alt=""
-            />
+          <div className="first__box__second__layout">
+            <div className="second__content__box">
+              <img
+                src="/public/assets/img/barista 1.jpg"
+                id="barista__img"
+                alt="barista-image"
+              />
+              <div className="box__content__box">
+                <h2 className="offering__heading" id="barista__heading">
+                  Barista
+                </h2>
+                <p className="our__offerings__paragraph_3 our__offering_p">
+                  Crafting Coffee Elegance: Our Barista, a true artisan,
+                  meticulously curates coffee experiences that harmonize the
+                  timeless allure of colonial era with the vibrant spirit of
+                  Kandyan heritage. With each pour, they blend the past and
+                  present, offering you a symphony of flavors that reflect the
+                  essence of Sri Lanka. Join us in savoring every sip as our
+                  Barista's expertise unfolds in every cup, weaving a tale of
+                  tradition and innovation that captures the essence of our
+                  cafe's cultural fusion.
+                </p>
+              </div>
+            </div>
+            <div className="third__content__box">
+              <div className="box__content__box">
+                <h2 className="offering__heading barista_heading" id="evets__and__parties__heading">
+                  Events & Parties
+                </h2>
+                <p className="our__offerings__paragraph_2 our__offering_p">
+                  Elevate Your Occasions: Experience the fusion of colonial
+                  grace and Kandyan flair in our versatile venue. From intimate
+                  gatherings to grand celebrations, our unique ambiance and
+                  cuisine create unforgettable events. Let us craft moments that
+                  blend tradition and modernity, making your special occasions
+                  truly timeless.
+                </p>
+              </div>
+
+              <img
+                src="/public/assets/img/owr-offerings-img-2.jpg"
+                id="events_and_parties_img"
+                alt=""
+              />
+            </div>
           </div>
         </div>
         <div className="second__box">
