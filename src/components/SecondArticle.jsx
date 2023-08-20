@@ -6,7 +6,11 @@ function SecondArticle() {
     <div className="second__article container">
       <div className="second__article__wrapper">
         <div className="first__box">
-          <img src="/public/assets/img/elephant.png" alt="elephant" />
+          <img
+            src="/public/assets/img/elephant.png"
+            id="elephant_sticker"
+            alt="elephant"
+          />
           <h1>The Vibe</h1>
           <p>
             Experience Café Nuwara's captivating aura through our immersive Vibe
