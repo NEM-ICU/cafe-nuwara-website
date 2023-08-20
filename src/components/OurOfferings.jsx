@@ -28,7 +28,20 @@ const OurOfferings = () => {
               id="barista__img"
               alt="barista-image"
             />
-            <h2 className="offering__heading">Barista</h2>
+            <h2 className="offering__heading events_and_parties_heading">
+              Events & Parties
+            </h2>
+            <p className="our__offerings__paragraph_3 our__offering_p">
+              {" "}
+              Elevate Your Occasions: Experience the fusion of colonial grace
+              and Kandyan flair in our versatile venue. From intimate gatherings
+              to grand celebrations, our unique ambiance and cuisine create
+              unforgettable events. Let us craft moments that blend tradition
+              and modernity, making your special occasions truly timeless.
+            </p>
+          </div>
+          <div className="third__content__box">
+            <h2 className="offering__heading barista_heading">Barista</h2>
             <p className="our__offerings__paragraph_2 our__offering_p">
               Crafting Coffee Elegance: Our Barista, a true artisan,
               meticulously curates coffee experiences that harmonize the
@@ -39,26 +52,26 @@ const OurOfferings = () => {
               unfolds in every cup, weaving a tale of tradition and innovation
               that captures the essence of our cafe's cultural fusion.
             </p>
-          </div>
-          <div className="third__content__box">
-            <h2 className="offering__heading">Events & Parties</h2>
-            <p className="our__offerings__paragraph_3 our__offering_p">
-              Elevate Your Occasions: Experience the fusion of colonial grace
-              and Kandyan flair in our versatile venue. From intimate gatherings
-              to grand celebrations, our unique ambiance and cuisine create
-              unforgettable events. Let us craft moments that blend tradition
-              and modernity, making your special occasions truly timeless.
-            </p>
-            <img src="/public/assets/img/owr-offerings-img-2.jpg" alt="" />
+            <img
+              src="/public/assets/img/owr-offerings-img-2.jpg"
+              id="events_and_parties_img"
+              alt=""
+            />
           </div>
         </div>
         <div className="second__box">
           <div className="second__box__wrapper">
             <div className="first__column">
               <div className="first__content__box">
-                <img src="/public/assets/img/owr-offerings-img-3.jpg" alt="" />
+                <img
+                  src="/public/assets/img/owr-offerings-img-3.jpg"
+                  id="photo_and_video_shoots_img"
+                  alt=""
+                />
                 <div className="box__separator__first__column">
-                  <h2 className="offering__heading">Photo & Video Shoots</h2>
+                  <h2 className="offering__heading photo_and_video_shoots_heading">
+                    Photo & Video Shoots
+                  </h2>
                   <p className="our__offerings__paragraph_4 our__offering_p">
                     Captivating Visuals, Captured Here: Our captivating
                     colonial-Kandyan setting offers an enchanting backdrop for
@@ -73,7 +86,9 @@ const OurOfferings = () => {
               </div>
               <div className="second__content__box">
                 <div className="box__separator__first__column">
-                  <h2 className="offering__heading">Corporate Get-togethers</h2>
+                  <h2 className="offering__heading corporate_get_togethers_heading">
+                    Corporate Get-togethers
+                  </h2>
                   <p className="our__offerings__paragraph_5 our__offering_p">
                     Elevate Corporate Gatherings: Infuse your meetings and
                     corporate events with the charm of our colonial-Kandyan
@@ -85,12 +100,22 @@ const OurOfferings = () => {
                     to inspire, creating a harmonious blend of work and culture.
                   </p>
                 </div>
-                <img src="/public/assets/img/owr-offerings-img-4.jpg" alt="" />
+                <img
+                  src="/public/assets/img/owr-offerings-img-4.jpg"
+                  id="corporate_get_togethers_img"
+                  alt=""
+                />
               </div>
             </div>
             <div className="third__content__box">
-              <h2 className="offering__heading" id="work__from__cafe__h2">Work from Cafe</h2>
-              <img src="/public/assets/img/owr-offerings-img-5.jpg" alt="" />
+              <h2 className="offering__heading" id="work__from__cafe__heading">
+                Work from Cafe
+              </h2>
+              <img
+                src="/public/assets/img/owr-offerings-img-5.jpg"
+                id="work_from_cafe_img"
+                alt=""
+              />
               <p className="our__offerings__paragraph_6 our__offering_p">
                 Inspiring Workspace: Blend work and culture in our
                 colonial-Kandyan cafe. Elevate productivity with an ambiance

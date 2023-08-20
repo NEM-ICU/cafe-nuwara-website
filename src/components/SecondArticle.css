@@ -5,6 +5,7 @@
   font-size: 1.7rem;
   line-height: 1.2;
   letter-spacing: 0.3px;
+  border-top: black 1.5px solid;
 }
 
 .second__article__wrapper {
@@ -12,6 +13,8 @@
   gap: 20px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  margin-top: 3rem;
+  text-align: justify;
 }
 
 .second__article__wrapper .first__box img {
@@ -21,7 +24,8 @@
 .second__article__wrapper .second__box img {
   width: 60rem;
   padding: 0.8rem;
-  border: 3.5px solid #545454;
+  border: 2px solid #545454;
+  object-fit: cover;
 }
 
 .second__article__wrapper .first__box {
@@ -29,8 +33,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
+  align-items: center;
 }
-
 /* Responsive */
 
 @media screen and (max-width: 1344px) {

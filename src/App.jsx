@@ -43,7 +43,6 @@ function App() {
 const Root = () => {
   return (
     <>
-      hello world
       <Navbar />
       <div>
         <Outlet />
