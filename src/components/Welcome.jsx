@@ -13,13 +13,13 @@ const Welcome = () => {
         <h1 className="slogan">CAFÉ & RESTAURANT</h1>
         <img
           className="main__logo"
-          src="/public/assets/svg/logo.svg"
+          src="/assets/svg/logo.svg"
           alt="logo"
         />
       </div>
       <div className="welcome__container">
         <h3>All Welcome</h3>
-        <img src="/public/assets/svg/arrow-1-down.svg" alt="" />
+        <img src="/assets/svg/arrow-1-down.svg" alt="" />
       </div>
     </section>
   );

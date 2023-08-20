@@ -5,13 +5,13 @@ function FirstArticle() {
   return (
     <section>
       <div className="article__wrapper container">
-        <img src="/public/assets/img/banner_ad.webp" alt="ad" />
+        <img src="/assets/img/banner_ad.webp" alt="ad" />
         <div className="title">
           <h1>A Luxary Colonial Cafe with Timeless Charm</h1>
         </div>
         <div className="article__main">
           <div className="first__paragraph">
-            <img src="/public/assets/img/king.jpg" alt="king" />
+            <img src="/assets/img/king.jpg" alt="king" />
             <div className="main__paragraph__wrapper">
               <p className="article__one__p__one">
                 Nestled in the heart of Kandy, Sri Lanka, Café Nuwara invites
@@ -51,7 +51,7 @@ function FirstArticle() {
               Nuwara, where each visit is a step back in time, a celebration of
               culture, and a journey of taste that transcends generations.
             </p>
-            <img src="/public/assets/img/lotus-flowers.jpg" alt="lotus" />
+            <img src="/assets/img/lotus-flowers.jpg" alt="lotus" />
           </div>
         </div>
       </div>

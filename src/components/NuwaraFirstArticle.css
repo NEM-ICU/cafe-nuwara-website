@@ -43,3 +43,42 @@
   height: 20rem;
   object-fit: cover;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+
+  .kandy__first__article .title__kandy h2 {
+    font-size: 2.3rem;
+  }
+
+  .kandy__first__article .title__kandy img {
+    width: 10rem;
+  }
+
+  .kandy__first__article .title__kandy .rink {
+    width: 30rem;
+  }
+
+  .separator__image img {
+    width: 100vw;
+    height: 10vh;
+  }
+}

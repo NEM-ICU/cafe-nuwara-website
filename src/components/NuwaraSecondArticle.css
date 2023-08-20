@@ -74,3 +74,54 @@
 #flag__paragraph {
   margin-top: 1rem;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+
+  .nuwara__second__article__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #rajasinghe__img {
+    width: 100%;
+  }
+  .nuwara__second__article__wrapper
+    .nuwara__second__content__box
+    .first__row__box {
+    display: block;
+    padding-top: 3rem;
+  }
+
+  .nuwara__second__article__wrapper
+    .nuwara__second__content__box
+    .first__row__box
+    img {
+    width: 100%;
+  }
+
+  .nuwara__second__article__wrapper
+    .nuwara__second__content__box
+    .second__row__box {
+    display: flex;
+    flex-direction: column;
+  }
+}

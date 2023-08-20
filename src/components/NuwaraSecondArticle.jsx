@@ -8,7 +8,7 @@ const NuwaraSecondArticle = () => {
         <div className="nuwara__second__article__wrapper container">
           <div className="nuwara__first__content__box">
             <img
-              src="/public/assets/img/rajasinghe-nuwara.png"
+              src="/assets/img/rajasinghe-nuwara.png"
               id="rajasinghe__img"
               alt="king"
             />
@@ -29,7 +29,7 @@ const NuwaraSecondArticle = () => {
           </div>
           <div className="nuwara__second__content__box">
             <div className="first__row__box">
-              <img src="/public/assets/img/history1.webp" alt="history-logo" />
+              <img src="/assets/img/history1.webp" alt="history-logo" />
               <p id="flag__paragraph">
                 The old Kandyan flag, a storied relic, unfurls tales of a
                 majestic era in Sri Lanka's central highlands. Its intricate
@@ -42,7 +42,7 @@ const NuwaraSecondArticle = () => {
             </div>
             <div className="second__row__box">
               <div className="first__column__box">
-                <img src="/public/assets/img/history2.jpg" alt="history-img2" />
+                <img src="/assets/img/history2.jpg" alt="history-img2" />
                 <p>
                   Meet King Vimaladarmasuriya I, the visionary monarch behind
                   Kandy's iconic Temple of Tooth Relic. His legacy reverberates
@@ -55,7 +55,7 @@ const NuwaraSecondArticle = () => {
               </div>
               <div className="second__column__box">
                 <img
-                  src="/public/assets/img/history3.jpg"
+                  src="/assets/img/history3.jpg"
                   id="royal__palace__img"
                   alt="history-img3"
                 />

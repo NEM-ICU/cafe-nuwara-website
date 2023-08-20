@@ -80,3 +80,47 @@
 .third__article__second__column p {
   text-align: justify;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+
+  .nuwara__third__article__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article__boxes .third__sub__article__one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article__boxes .third__sub__article__two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article__boxes .third__sub__article__one img {
+    width: 100%;
+  }
+  .article__boxes .third__sub__article__two img {
+    width: 100%;
+  }
+}

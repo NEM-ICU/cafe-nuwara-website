@@ -7,7 +7,7 @@ function SecondArticle() {
       <div className="second__article__wrapper">
         <div className="first__box">
           <img
-            src="/public/assets/img/elephant.png"
+            src="/assets/img/elephant.png"
             id="elephant_sticker"
             alt="elephant"
           />
@@ -31,7 +31,7 @@ function SecondArticle() {
           </p>
         </div>
         <div className="second__box">
-          <img src="/public/assets/img/city-view.jpg" alt="city-view" />
+          <img src="/assets/img/city-view.jpg" alt="city-view" />
         </div>
       </div>
     </div>

@@ -68,7 +68,7 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="map__img">
-            <img src="/public/assets/img/cafe-nuwara-map.jpg" alt="map-img" />
+            <img src="/assets/img/cafe-nuwara-map.jpg" alt="map-img" />
           </div>
         </div>
         <div className="feedback__column">

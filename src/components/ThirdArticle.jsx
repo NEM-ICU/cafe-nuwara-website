@@ -6,10 +6,10 @@ const ThirdArticle = () => {
     <div className="third__article container">
       <div className="third__article__wrapper">
         <div className="first__box">
-          <img src="/public/assets/img/kandy_perehera.jpg" alt="city-view" />
+          <img src="/assets/img/kandy_perehera.jpg" alt="city-view" />
         </div>
         <div className="second__box">
-          <img src="/public/assets/svg/flower1.svg" alt="flower" />
+          <img src="/assets/svg/flower1.svg" alt="flower" />
           <h1>The Vibe</h1>
           <p>
             Café Nuwara embodies the essence of Kandyan heritage, seamlessly

@@ -348,7 +348,7 @@ function Navbar() {
           </div>
           <div className="mobile__ver">
             <div className="mobile__logo">
-              <h2>CAFE</h2>
+              <h2>CAFÉ</h2>
               <h2>NUWARA</h2>
             </div>
             <div className="menu-icon" onClick={mobileNavbarHandler}>

@@ -200,3 +200,40 @@
 .feedback__para {
   text-align: justify;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+
+  .contact__us__page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__us__column {
+    padding: 0;
+    border: none;
+  }
+
+  .o-btn--feedback {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}

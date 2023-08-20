@@ -43,7 +43,7 @@ const Footer = () => {
                   <h2> By Fab Ceylon</h2>
                 </div>
 
-                <img src="/public/assets/img/fabceylon-logo.png" alt="" />
+                <img src="/assets/img/fabceylon-logo.png" alt="" />
               </div>
               <div className="footer__nav__column3">
                 <div className="coloumn__wrapper">
@@ -89,17 +89,41 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer__nav__logo">
+              <img src="/assets/img/fabceylon-logo.png" alt="" />
               <div className="fab__logo__footer">
                 <h2>Cafe Nuwara</h2>
                 <h2> By Fab Ceylon</h2>
               </div>
-              <img src="/public/assets/img/fabceylon-logo.png" alt="" />
             </div>
-            <div className="power__by__magicle"></div>
+            <div className="cafe__nuwara__contact__container">
+              <div className="box__contact__1">
+                <p>No: 146</p>
+                <p>DS Senanayake Road</p>
+                <p>Kandy 20000</p>
+              </div>
+              <div className="box__contact__2">
+                <p>Review Us On</p>
+                <p>TripAdvisor</p>
+              </div>
+              <div className="box__contact__3">
+                <p>+947612346789</p>
+                <p>+94213211354</p>
+                <p>Info@Nuwara.Cafe</p>
+              </div>
+            </div>
+            <div className="tripadvisor__logo">
+              <img
+                src="/public/assets/svg/tripadvisor-review.svg"
+                alt="tripAdvisor-logo"
+              />
+            </div>
+            <div className="powered__by__magicle">
+              <h2>Powerd by magicle labs</h2>
+            </div>
           </div>
         </div>
         <div className="third__container">
-          <div className="first__box">
+          <div className="first__box" id="privacy-policy">
             <Link>Privacy Policy</Link>
           </div>
           <div className="second__box">
@@ -108,13 +132,13 @@ const Footer = () => {
           <div className="third__box">
             <div className="item1">Join Cafe Nuwara</div>
             <div className="item2">
-              <img src="/public/assets/svg/facebook-logo.svg" alt="facebook" />
+              <img src="/assets/svg/facebook-logo.svg" alt="facebook" />
             </div>
             <div className="item3">
-              <img src="/public/assets/svg/instagram.svg" alt="instagram" />
+              <img src="/assets/svg/instagram.svg" alt="instagram" />
             </div>
             <div className="item4">
-              <img src="/public/assets/svg/tripadvisor.svg" alt="" />
+              <img src="/assets/svg/tripadvisor.svg" alt="" />
             </div>
           </div>
         </div>

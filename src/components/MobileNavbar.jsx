@@ -40,7 +40,7 @@ const MobileNavbar = ({ mobileNavbarHandler }) => {
             <Link className="link-item">Voucher</Link>
           </div>
         </div>
-        <div className="about__us__mobile__nav">
+        <div className="about__us__mobile__nav container">
           <div className="title__mobile__about__us">
             <h2>About Us</h2>
           </div>
@@ -53,12 +53,10 @@ const MobileNavbar = ({ mobileNavbarHandler }) => {
             </p>
           </div>
           <div className="contact__us__btn__mobile__nav">
-            <button id="contact__nav__btn" className="o-btn--decorative">
-              Contact Us
-            </button>
+            <button className="contact__nav__btn">Contact Us</button>
           </div>
           <div className="mobile__flower">
-            <img src="/public/assets/svg/flower1.svg" alt="flower" />
+            <img src="/assets/svg/flower1.svg" alt="flower" />
           </div>
         </div>
       </div>

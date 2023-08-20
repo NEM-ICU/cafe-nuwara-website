@@ -9,7 +9,7 @@ const OurOfferings = () => {
         <div className="first__box">
           <div className="first__content__box">
             <h2 className="offering__heading">Restaurant</h2>
-            <img src="/public/assets/img/owr-offerings-img-1.jpg" alt="" />
+            <img src="/assets/img/owr-offerings-img-1.jpg" alt="" />
             <p className="our__offerings__paragraph_1 our__offering_p">
               Experience a gastronomic paradise at Café Nuwara's open-air
               restaurant. Relish mouthwatering burgers, shawarmas, and an array
@@ -25,7 +25,7 @@ const OurOfferings = () => {
           <div className="first__box__second__layout">
             <div className="second__content__box">
               <img
-                src="/public/assets/img/barista 1.jpg"
+                src="/assets/img/barista 1.jpg"
                 id="barista__img"
                 alt="barista-image"
               />
@@ -62,7 +62,7 @@ const OurOfferings = () => {
               </div>
 
               <img
-                src="/public/assets/img/owr-offerings-img-2.jpg"
+                src="/assets/img/owr-offerings-img-2.jpg"
                 id="events_and_parties_img"
                 alt=""
               />
@@ -74,7 +74,7 @@ const OurOfferings = () => {
             <div className="first__column">
               <div className="first__content__box">
                 <img
-                  src="/public/assets/img/owr-offerings-img-3.jpg"
+                  src="/assets/img/owr-offerings-img-3.jpg"
                   id="photo_and_video_shoots_img"
                   alt=""
                 />
@@ -111,7 +111,7 @@ const OurOfferings = () => {
                   </p>
                 </div>
                 <img
-                  src="/public/assets/img/owr-offerings-img-4.jpg"
+                  src="/assets/img/owr-offerings-img-4.jpg"
                   id="corporate_get_togethers_img"
                   alt=""
                 />
@@ -122,7 +122,7 @@ const OurOfferings = () => {
                 Work from Cafe
               </h2>
               <img
-                src="/public/assets/img/owr-offerings-img-5.jpg"
+                src="/assets/img/owr-offerings-img-5.jpg"
                 id="work_from_cafe_img"
                 alt=""
               />

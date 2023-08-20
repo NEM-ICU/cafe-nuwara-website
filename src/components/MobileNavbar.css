@@ -110,7 +110,7 @@
   border-top: 1px #383a3b solid;
 }
 .title__mobile__about__us h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   text-decoration: underline;
 }
 
@@ -121,6 +121,7 @@
 .contact__us__btn__mobile__nav {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact__us__btn__mobile__nav button {
@@ -133,17 +134,22 @@
 }
 
 .mobile__flower img {
-  width: 80px;
-  margin: auto;
+  width: 15rem;
+  margin: 3rem auto;
+}
+
+.about__us__mobile__nav .title__mobile__about__us h2 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about__us__mobile__nav {
+  font-size: 1.5rem;
 }
 
 /* button styles */
 
-/* #contact__nav__btn {
-  all: unset;
-} */
-
-.o-btn--decorative {
+.contact__nav__btn {
   position: relative;
   border-color: transparent;
   font-family: "Cheltenham", Times, serif;
@@ -153,30 +159,30 @@
   color: #fff;
   filter: none;
 
-  width: 40%;
+  width: 90%;
   font-size: 1.5em;
-  padding: 5px 0;
-  margin-top: 2.1rem;
+  padding: 1px 0;
+  margin: 1rem 0;
 
   z-index: -1;
 }
 
-.o-btn--decorative:before,
-.o-btn--decorative:after {
+.contact__nav__btn:before,
+.contact__nav__btn:after {
   content: "";
   position: absolute;
   display: block;
   border: 1px solid #383a3b;
 }
 
-.o-btn--decorative:before {
+.contact__nav__btn:before {
   top: -1px;
   left: -4px;
   width: calc(100% + 8px);
   height: calc(100% + 2px);
 }
 
-.o-btn--decorative:after {
+.contact__nav__btn:after {
   top: -4px;
   left: -1px;
   width: calc(100% + 2px);

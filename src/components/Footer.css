@@ -1,16 +1,6 @@
-.footer::before {
-  content: "";
-  position: absolute;
-  display: block;
-  border-top: 1px solid black;
-  top: -4px;
-  left: -1px;
-  width: calc(100% + 2px);
-  height: calc(100% + 8px);
-}
-
 .footer {
   border-top: 2px solid #383a3b;
+
   /* box-shadow: 0 1px 0 #f6f3ee, 0 2px 0 #383a3b; */
   font-size: 1.5rem;
   letter-spacing: 1px;
@@ -213,6 +203,70 @@
   font-style: normal;
   text-decoration: none;
 }
+.footer__nav__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin: 2rem 0;
+  font-family: "Cheltenham";
+  font-style: italic;
+}
+
+.cafe__nuwara__contact__container {
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  font-size: 0.8rem;
+}
+.box__contact__1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box__contact__2 {
+  text-align: center;
+}
+
+.box__contact__3 {
+  text-align: end;
+}
+
+.mobile__footer__wrapper .tripadvisor__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile__footer__wrapper .tripadvisor__logo img {
+  width: 9rem;
+}
+
+.powered__by__magicle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 0.8rem;
+  text-decoration: underline;
+
+  margin: 1rem 0;
+}
+
+.third__container .first__box a {
+  all: unset;
+}
+
+#privacy-policy {
+  all: unset;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
 
 /* Responsive */
 
@@ -286,5 +340,9 @@
 
   .footer__wrapper .third__container .third__box {
     grid-area: 1/3 /1/4;
+  }
+
+  .footer__wrapper .third__container {
+    padding: 0.4rem 3.2rem;
   }
 }

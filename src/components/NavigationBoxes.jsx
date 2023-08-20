@@ -9,21 +9,21 @@ const NavigationBoxes = () => {
       <div className="boxes__wrapper">
         <Link>
           <img
-            src="/public/assets/svg/banner-box.svg"
+            src="/assets/svg/banner-box.svg"
             alt="box"
             className="first__img__box"
           />
         </Link>
         <Link>
           <img
-            src="/public/assets/svg/banner-box2.svg"
+            src="/assets/svg/banner-box2.svg"
             alt="box2"
             className="third__img__box"
           />
         </Link>
         <Link>
           <img
-            src="/public/assets/svg/banner-box1.svg"
+            src="/assets/svg/banner-box1.svg"
             alt="box1"
             className="second__img__box"
           />

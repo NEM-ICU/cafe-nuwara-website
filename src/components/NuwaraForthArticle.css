@@ -58,3 +58,45 @@
 .kandy__forth__article__wrapper .forth__article__column__three p {
   margin-bottom: 3rem;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 1344px) {
+  /* Styles for screens below 1344px */
+}
+
+@media screen and (max-width: 1200px) {
+  /* Styles for screens below 1200px */
+}
+
+@media screen and (max-width: 944px) {
+  /* Styles for screens below 944px */
+}
+
+@media screen and (max-width: 704px) {
+  /* Styles for screens below 704px */
+}
+
+@media screen and (max-width: 544px) {
+  /* Styles for screens below 544px */
+
+  .forth__article__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article__title__kandy h2 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .article__title__kandy img {
+    margin: 0;
+    padding: 0;
+    width: 10rem;
+  }
+
+  .article__title__kandy .rink {
+    width: 30rem;
+  }
+}

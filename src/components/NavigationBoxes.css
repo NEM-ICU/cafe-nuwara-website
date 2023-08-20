@@ -44,9 +44,6 @@
 
 @media screen and (max-width: 544px) {
   /* Styles for screens below 544px */
-  * {
-    overflow-x: hidden;
-  }
 
   .boxes__wrapper {
     flex-direction: column;

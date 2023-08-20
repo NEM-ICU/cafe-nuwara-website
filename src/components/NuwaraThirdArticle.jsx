@@ -13,7 +13,7 @@ const NuwaraThirdArticle = () => {
             <div className="article__boxes">
               <div className="third__sub__article__one">
                 <img
-                  src="/public/assets/img/third-one.jpg"
+                  src="/assets/img/third-one.jpg"
                   alt="tooth-temple"
                 />
                 <p>
@@ -29,7 +29,7 @@ const NuwaraThirdArticle = () => {
                 </p>
               </div>
               <div className="third__sub__article__two">
-                <img src="/public/assets/img/third-two.jpg" alt="wall-paint" />
+                <img src="/assets/img/third-two.jpg" alt="wall-paint" />
                 <p>
                   The Temple of Tooth Relic, nestled in Kandy, serves as a
                   living testament to Sri Lanka's rich history and the essence
@@ -44,7 +44,7 @@ const NuwaraThirdArticle = () => {
           </div>
           <div className="third__article__second__column">
             <img
-              src="/public/assets/img/third-three.jpg"
+              src="/assets/img/third-three.jpg"
               alt="esala-perahera"
             />
             <h2>Kandy Esala Perahera</h2>

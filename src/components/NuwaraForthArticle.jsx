@@ -8,17 +8,17 @@ const NuwaraForthArticle = () => {
       <div className="kandy__forth__article">
         <div className="kandy__forth__article__wrapper container">
           <div className="article__title__kandy">
-            <img src="/public/assets/svg/flower4.png" alt="flower" />
+            <img src="/assets/svg/flower4.png" alt="flower" />
             <h2>Exploring Kandy: Essential Places to Visit</h2>
             <img
-              src="/public/assets/svg/rink-black.svg"
+              src="/assets/svg/rink-black.svg"
               className="rink"
               alt="rink"
             />
           </div>
           <div className="forth__article__content">
             <div className="forth__article__column__one">
-              <img src="/public/assets/img/old-town.jpg" alt="old-town-image" />
+              <img src="/assets/img/old-town.jpg" alt="old-town-image" />
               <p>
                 Nestled amidst the lush embrace of Kandy, Café Nuwara offers
                 more than just culinary delights – it's your gateway to a
