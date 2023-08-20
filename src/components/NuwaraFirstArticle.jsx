@@ -45,7 +45,7 @@ const NuwaraFirstArticle = () => {
         </div>
       </section>
       <div className="separator__image">
-        <img src="/public/assets/img/embakke-devalaya.jpg" alt="" />
+        <img src="/public/assets/img/nuwara-first-photo.jpg" alt="" />
       </div>
     </>
   );

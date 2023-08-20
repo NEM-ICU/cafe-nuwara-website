@@ -36,7 +36,7 @@ const ContactUs = () => {
               team stands ready to address your inquiries, facilitate
               reservations, and ensure a seamless experience within our
               colonial-Kandyan ambiance. Reach out today for personalized
-              assistance and to embark on a journey of refined hospitality
+              assistance and to embark on a journey of refined hospitality.
             </p>
           </div>
           <div className="contact__us__nav">
