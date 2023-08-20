@@ -8,7 +8,7 @@ const NuwaraFirstArticle = () => {
       <section className="kandy__first__article container">
         <div className="article__wrapper">
           <div className="title__kandy">
-            <img src="/public/assets/svg/flower3.svg" alt="flower" />
+            <img src="/public/assets/svg/flower2.svg" alt="flower" />
             <h2>The Kingdom Of Kandy</h2>
             <img
               src="/public/assets/svg/rink-black.svg"
