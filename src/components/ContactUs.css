@@ -72,11 +72,16 @@
 } */
 
 .map__img {
-  margin: 2rem;
+  margin: 1rem;
+  /* margin-top: 2rem; */
 }
 
 .map__img img {
   width: 100%;
+  border: #5b5b5b solid 2px;
+  padding: 0.5rem;
+  padding-right: 0.2rem;
+  object-fit: cover;
 }
 
 /* feedback column */
@@ -188,4 +193,10 @@
   left: -1px;
   width: calc(100% + 2px);
   height: calc(100% + 8px);
+}
+.contact__us__para {
+  text-align: justify;
+}
+.feedback__para {
+  text-align: justify;
 }

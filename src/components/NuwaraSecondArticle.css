@@ -61,3 +61,16 @@
   gap: 2rem;
   margin-top: 2rem;
 }
+#rajasinghe__img {
+  height: 410px;
+  border: 2px solid #545454;
+  padding: 0.5rem;
+  object-fit: cover;
+}
+#royal__palace__img {
+  height: 217px;
+  object-fit: cover;
+}
+#flag__paragraph {
+  margin-top: 1rem;
+}
