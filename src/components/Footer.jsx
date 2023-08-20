@@ -56,6 +56,48 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="mobile__footer">
+          <div className="mobile__footer__wrapper container">
+            <div className="footer__nav__items__container">
+              <div className="footer__nav__col1">
+                <Link to="/" className="footer__nav__item__mobile">
+                  Home
+                </Link>
+                <Link to="/" className="footer__nav__item__mobile">
+                  Nuwara
+                </Link>
+                <Link to="/" className="footer__nav__item__mobile">
+                  Menu
+                </Link>
+                <Link to="/" className="footer__nav__item__mobile">
+                  Gallery
+                </Link>
+              </div>
+              <div className="footer__nav__col2">
+                <Link to="/" className="footer__nav__item__mobile">
+                  Store
+                </Link>
+                <Link to="/" className="footer__nav__item__mobile">
+                  Order Foods
+                </Link>
+                <Link to="/" className="footer__nav__item__mobile">
+                  Voucher
+                </Link>
+                <Link to="/" className="footer__nav__item__mobile">
+                  Feedback
+                </Link>
+              </div>
+            </div>
+            <div className="footer__nav__logo">
+              <div className="fab__logo__footer">
+                <h2>Cafe Nuwara</h2>
+                <h2> By Fab Ceylon</h2>
+              </div>
+              <img src="/public/assets/img/fabceylon-logo.png" alt="" />
+            </div>
+            <div className="power__by__magicle"></div>
+          </div>
+        </div>
         <div className="third__container">
           <div className="first__box">
             <Link>Privacy Policy</Link>

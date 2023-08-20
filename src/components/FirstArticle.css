@@ -108,4 +108,23 @@
 
 @media screen and (max-width: 544px) {
   /* Styles for screens below 544px */
+
+  .article__main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first__paragraph {
+    display: flex;
+    flex-direction: column;
+  }
+  .article__main .first__paragraph img {
+    width: 100%;
+    margin-bottom: 1rem !important;
+  }
+
+  .main__paragraph__wrapper p {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }

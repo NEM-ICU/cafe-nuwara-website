@@ -157,4 +157,48 @@
 
 @media screen and (max-width: 544px) {
   /* Styles for screens below 544px */
+
+  .first__box .second__content__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first__box .third__content__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second__box .first__content__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second__box .second__content__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first__box .first__content__box img {
+    width: 100%;
+  }
+
+  .first__box .second__content__box img {
+    width: 100%;
+  }
+
+  .first__box .third__content__box img {
+    width: 100%;
+  }
+
+  .second__box .first__content__box img {
+    width: 100%;
+  }
+
+  .second__box .second__content__box img {
+    width: 100%;
+  }
+
+  .second__box .third__content__box img {
+    width: 100%;
+  }
 }

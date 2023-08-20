@@ -103,4 +103,11 @@
 
 @media screen and (max-width: 544px) {
   /* Styles for screens below 544px */
+  .third__article__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .third__article__wrapper .first__box img {
+    width: 100%;
+  }
 }

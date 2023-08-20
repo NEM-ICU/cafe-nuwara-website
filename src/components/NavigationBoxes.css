@@ -44,4 +44,31 @@
 
 @media screen and (max-width: 544px) {
   /* Styles for screens below 544px */
+  * {
+    overflow-x: hidden;
+  }
+
+  .boxes__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .boxes__wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first__img__box {
+    width: 70%;
+  }
+
+  .second__img__box {
+    width: 70%;
+  }
+
+  .third__img__box {
+    width: 70%;
+  }
 }

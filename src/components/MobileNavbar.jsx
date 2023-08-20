@@ -18,27 +18,27 @@ const MobileNavbar = ({ mobileNavbarHandler }) => {
           />
         </div>
         <div className="nav__items__container">
-          <Link to="/" className="mobile__grid__item__1">
-            Home
-          </Link>
-          <Link to="/" className="mobile__grid__item__2">
-            Nuwara
-          </Link>
-          <Link to="/" className="mobile__grid__item__3">
-            Menu
-          </Link>
-          <Link to="/" className="mobile__grid__item__4">
-            Gallery
-          </Link>
-          <Link to="/" className="mobile__grid__item__5">
-            Store
-          </Link>
-          <Link to="/" className="mobile__grid__item__6">
-            Order Foods
-          </Link>
-          <Link to="/" className="mobile__grid__item__7">
-            Voucher
-          </Link>
+          <div to="/" className="mobile__grid__item__1">
+            <Link className="link-item">Home</Link>
+          </div>
+          <div to="/" className="mobile__grid__item__2">
+            <Link className="link-item">Nuwara</Link>
+          </div>
+          <div to="/" className="mobile__grid__item__3">
+            <Link className="link-item">Menu</Link>
+          </div>
+          <div to="/" className="mobile__grid__item__4">
+            <Link className="link-item">Gallery</Link>
+          </div>
+          <div to="/" className="mobile__grid__item__5">
+            <Link className="link-item">Store</Link>
+          </div>
+          <div to="/" className="mobile__grid__item__6">
+            <Link className="link-item">Order Foods</Link>
+          </div>
+          <div to="/" className="mobile__grid__item__7">
+            <Link className="link-item">Voucher</Link>
+          </div>
         </div>
         <div className="about__us__mobile__nav">
           <div className="title__mobile__about__us">
@@ -53,7 +53,9 @@ const MobileNavbar = ({ mobileNavbarHandler }) => {
             </p>
           </div>
           <div className="contact__us__btn__mobile__nav">
-            <button>Contact Us</button>
+            <button id="contact__nav__btn" className="o-btn--decorative">
+              Contact Us
+            </button>
           </div>
           <div className="mobile__flower">
             <img src="/public/assets/svg/flower1.svg" alt="flower" />

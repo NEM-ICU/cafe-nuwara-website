@@ -62,4 +62,9 @@
 
 @media screen and (max-width: 544px) {
   /* Styles for screens below 544px */
+
+  .second__article__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }

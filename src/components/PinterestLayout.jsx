@@ -15,15 +15,19 @@ const PinterestLayout = () => {
           size="medium"
           imgUrl="/public/assets/img/owr-offerings-img-2.jpg"
         />
+
+        <Pin size="small" imgUrl="/public/assets/img/barista 1.jpg" />
+
         <Pin size="large" />
         <Pin size="small" />
         <Pin size="medium" />
         <Pin size="landscape" />
+
+        {/* <Pin size="landscape" />
         <Pin size="landscape" />
         <Pin size="landscape" />
         <Pin size="landscape" />
-        <Pin size="landscape" />
-        <Pin size="landscape" />
+        <Pin size="landscape" /> */}
       </div>
     </>
   );
