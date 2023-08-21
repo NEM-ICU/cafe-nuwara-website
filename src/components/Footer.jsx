@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="review__container">
               <p>Review Us On TripAdvisor</p>
               <img
-                src="/public/assets/svg/tripadvisor-review.svg"
+                src="/assets/svg/tripadvisor-review.svg"
                 alt="tripadvisor-icon"
               />
             </div>
@@ -113,7 +113,7 @@ const Footer = () => {
             </div>
             <div className="tripadvisor__logo">
               <img
-                src="/public/assets/svg/tripadvisor-review.svg"
+                src="/assets/svg/tripadvisor-review.svg"
                 alt="tripAdvisor-logo"
               />
             </div>
@@ -131,15 +131,21 @@ const Footer = () => {
           </div>
           <div className="third__box">
             <div className="item1">Join Cafe Nuwara</div>
-            <div className="item2">
+            <Link
+              to="https://www.facebook.com/profile.php?id=100092030667404"
+              className="item2"
+            >
               <img src="/assets/svg/facebook-logo.svg" alt="facebook" />
-            </div>
-            <div className="item3">
+            </Link>
+            <Link to="https://www.instagram.com/cafenuwara/" className="item3">
               <img src="/assets/svg/instagram.svg" alt="instagram" />
-            </div>
-            <div className="item4">
+            </Link>
+            <Link
+              to="https://www.tripadvisor.com/Restaurant_Review-g304138-d26326255-Reviews-Cafe_Nuwara-Kandy_Kandy_District_Central_Province.html?m=19905"
+              className="item4"
+            >
               <img src="/assets/svg/tripadvisor.svg" alt="" />
-            </div>
+            </Link>
           </div>
         </div>
       </div>

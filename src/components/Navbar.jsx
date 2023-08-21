@@ -352,7 +352,7 @@ function Navbar() {
               <h2>NUWARA</h2>
             </div>
             <div className="menu-icon" onClick={mobileNavbarHandler}>
-              <img src="/public/assets/svg/menu-icon.svg" alt="close-icon" />
+              <img src="/assets/svg/menu-icon.svg" alt="close-icon" />
             </div>
           </div>
         </nav>
