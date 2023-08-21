@@ -5,7 +5,7 @@ function FirstArticle() {
   return (
     <section>
       <div className="article__wrapper container">
-        <img src="/assets/img/banner_ad.webp" alt="ad" />
+        <img src="/assets/img/banner-ad.png" alt="ad" />
         <div className="title">
           <h1>A Luxary Colonial Cafe with Timeless Charm</h1>
         </div>

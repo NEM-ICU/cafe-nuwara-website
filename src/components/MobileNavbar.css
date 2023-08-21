@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  background-image: url(/public/assets/img/bg-texture-01.png);
+  background-image: url(/assets/img/bg-texture-01.png);
   transition: 1s;
 
   z-index: 30;
@@ -119,6 +119,7 @@
 }
 
 .contact__us__btn__mobile__nav {
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
