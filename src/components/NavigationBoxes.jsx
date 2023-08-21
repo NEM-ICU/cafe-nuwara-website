@@ -7,21 +7,21 @@ const NavigationBoxes = () => {
   return (
     <div className="navigation__boxes container">
       <div className="boxes__wrapper">
-        <Link>
+        <Link to="construction">
           <img
             src="/assets/svg/banner-box.svg"
             alt="box"
             className="first__img__box"
           />
         </Link>
-        <Link>
+        <Link to="https://menu.nuwara.cafe/">
           <img
             src="/assets/svg/banner-box2.svg"
             alt="box2"
             className="third__img__box"
           />
         </Link>
-        <Link>
+        <Link to="gallery">
           <img
             src="/assets/svg/banner-box1.svg"
             alt="box1"

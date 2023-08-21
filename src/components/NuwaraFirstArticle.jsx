@@ -10,11 +10,7 @@ const NuwaraFirstArticle = () => {
           <div className="title__kandy">
             <img src="/assets/svg/flower2.svg" alt="flower" />
             <h2>The Kingdom Of Kandy</h2>
-            <img
-              src="/public/assets/svg/rink-black.svg"
-              className="rink"
-              alt="rink"
-            />
+            <img src="/assets/svg/rink-black.svg" className="rink" alt="rink" />
           </div>
           <div className="first__paragraph__nuwara">
             <p>

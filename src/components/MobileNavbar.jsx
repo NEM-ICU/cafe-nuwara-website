@@ -12,7 +12,7 @@ const MobileNavbar = ({ mobileNavbarHandler }) => {
             <h2>NUWARA</h2>
           </div>
           <img
-            src="/public/assets/svg/close-icon.svg"
+            src="/assets/svg/close-icon.svg"
             onClick={mobileNavbarHandler}
             alt="close-icon"
           />
@@ -29,7 +29,7 @@ const MobileNavbar = ({ mobileNavbarHandler }) => {
             </Link>
           </div>
           <div className="mobile__grid__item__3" onClick={mobileNavbarHandler}>
-            <Link to="menu" className="link-item">
+            <Link to="https://menu.nuwara.cafe/" className="link-item">
               Menu
             </Link>
           </div>
@@ -72,12 +72,13 @@ const MobileNavbar = ({ mobileNavbarHandler }) => {
               unforgettable experience.
             </p>
           </div>
-          <div
+          <Link
             className="contact__us__btn__mobile__nav"
             onClick={mobileNavbarHandler}
+            to="contact"
           >
             <button className="contact__nav__btn">Contact Us</button>
-          </div>
+          </Link>
           <div className="mobile__flower">
             <img src="/assets/svg/flower1.svg" alt="flower" />
           </div>
