@@ -63,27 +63,27 @@ const Footer = () => {
                 <Link to="/" className="footer__nav__item__mobile">
                   Home
                 </Link>
-                <Link to="/" className="footer__nav__item__mobile">
+                <Link to="nuwara" className="footer__nav__item__mobile">
                   Nuwara
                 </Link>
-                <Link to="/" className="footer__nav__item__mobile">
+                <Link to="menu" className="footer__nav__item__mobile">
                   Menu
                 </Link>
-                <Link to="/" className="footer__nav__item__mobile">
+                <Link to="gallery" className="footer__nav__item__mobile">
                   Gallery
                 </Link>
               </div>
               <div className="footer__nav__col2">
-                <Link to="/" className="footer__nav__item__mobile">
+                <Link to="construction" className="footer__nav__item__mobile">
                   Store
                 </Link>
-                <Link to="/" className="footer__nav__item__mobile">
+                <Link to="construction" className="footer__nav__item__mobile">
                   Order Foods
                 </Link>
-                <Link to="/" className="footer__nav__item__mobile">
+                <Link to="construction" className="footer__nav__item__mobile">
                   Voucher
                 </Link>
-                <Link to="/" className="footer__nav__item__mobile">
+                <Link to="construction" className="footer__nav__item__mobile">
                   Feedback
                 </Link>
               </div>

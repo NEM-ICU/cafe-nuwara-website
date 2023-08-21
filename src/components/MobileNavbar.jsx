@@ -18,33 +18,53 @@ const MobileNavbar = ({ mobileNavbarHandler }) => {
           />
         </div>
         <div className="nav__items__container">
-          <div to="/" className="mobile__grid__item__1">
-            <Link className="link-item">Home</Link>
+          <div className="mobile__grid__item__1" onClick={mobileNavbarHandler}>
+            <Link to="/" className="link-item">
+              Home
+            </Link>
           </div>
-          <div to="/" className="mobile__grid__item__2">
-            <Link className="link-item">Nuwara</Link>
+          <div className="mobile__grid__item__2" onClick={mobileNavbarHandler}>
+            <Link to="nuwara" className="link-item">
+              Nuwara
+            </Link>
           </div>
-          <div to="/" className="mobile__grid__item__3">
-            <Link className="link-item">Menu</Link>
+          <div className="mobile__grid__item__3" onClick={mobileNavbarHandler}>
+            <Link to="menu" className="link-item">
+              Menu
+            </Link>
           </div>
-          <div to="/" className="mobile__grid__item__4">
-            <Link className="link-item">Gallery</Link>
+          <div className="mobile__grid__item__4" onClick={mobileNavbarHandler}>
+            <Link to="gallery" className="link-item">
+              Gallery
+            </Link>
           </div>
-          <div to="/" className="mobile__grid__item__5">
-            <Link className="link-item">Store</Link>
+          <div className="mobile__grid__item__5" onClick={mobileNavbarHandler}>
+            <Link to="construction" className="link-item">
+              Store
+            </Link>
           </div>
-          <div to="/" className="mobile__grid__item__6">
-            <Link className="link-item">Order Foods</Link>
+          <div className="mobile__grid__item__6" onClick={mobileNavbarHandler}>
+            <Link to="construction" className="link-item">
+              Order Foods
+            </Link>
           </div>
-          <div to="/" className="mobile__grid__item__7">
-            <Link className="link-item">Voucher</Link>
+          <div className="mobile__grid__item__7" onClick={mobileNavbarHandler}>
+            <Link to="construction" className="link-item">
+              Voucher
+            </Link>
           </div>
         </div>
-        <div className="about__us__mobile__nav container">
+        <div
+          className="about__us__mobile__nav container"
+          onClick={mobileNavbarHandler}
+        >
           <div className="title__mobile__about__us">
             <h2>About Us</h2>
           </div>
-          <div className="content__mobile__about__us">
+          <div
+            className="content__mobile__about__us"
+            onClick={mobileNavbarHandler}
+          >
             <p>
               Our Story, Your Experience: Discover the heart behind our
               colonial-Kandyan cafe. Immerse yourself in our journey, where
@@ -52,7 +72,10 @@ const MobileNavbar = ({ mobileNavbarHandler }) => {
               unforgettable experience.
             </p>
           </div>
-          <div className="contact__us__btn__mobile__nav">
+          <div
+            className="contact__us__btn__mobile__nav"
+            onClick={mobileNavbarHandler}
+          >
             <button className="contact__nav__btn">Contact Us</button>
           </div>
           <div className="mobile__flower">

@@ -311,28 +311,28 @@ function Navbar() {
           <div className="desktop__ver">
             <Link
               to="/"
-              className={"navbar__link"}
+              className={`navbar__link ${dropdownClicked ? "inactive" : ""}`}
               onClick={dropdownClicked && dropdownHandler}
             >
               Home
             </Link>
             <Link
               to="/nuwara"
-              className={"navbar__link "}
+              className={`navbar__link ${dropdownClicked ? "inactive" : ""}`}
               onClick={dropdownClicked && dropdownHandler}
             >
               Nuwara
             </Link>
             <Link
               to="https://menu.nuwara.cafe/"
-              className={"navbar__link "}
+              className={`navbar__link ${dropdownClicked ? "inactive" : ""}`}
               onClick={dropdownClicked && dropdownHandler}
             >
               Menu
             </Link>
             <Link
-              to="/store"
-              className={"navbar__link "}
+              to="construction"
+              className={`navbar__link ${dropdownClicked ? "inactive" : ""}`}
               onClick={dropdownClicked && dropdownHandler}
             >
               Store
@@ -356,7 +356,7 @@ function Navbar() {
             </div>
           </div>
         </nav>
-        {dropdownClicked && <NavbarDropdownMenu />}
+        {dropdownClicked && <NavbarDropdownMenu dropdownClicked={dropdownClicked}/>}
       </div>
       {mobileNavToggle && (
         <MobileNavbar mobileNavbarHandler={mobileNavbarHandler} />

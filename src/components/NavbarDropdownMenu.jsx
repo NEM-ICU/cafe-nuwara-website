@@ -12,7 +12,7 @@ function NavbarDropdownMenu({ dropdownClicked }) {
           <li className="dropdown__item">
             <Link
               className="dropdown__link"
-              to="/gallery"
+              to="gallery"
               onClick={dropdownClicked}
             >
               Gallery
@@ -24,7 +24,11 @@ function NavbarDropdownMenu({ dropdownClicked }) {
             </Link>
           </li>
           <li className="dropdown__item">
-            <Link className="dropdown__link">
+            <Link
+              to="construction"
+              className="dropdown__link"
+              onClick={dropdownClicked}
+            >
               Vouchers
               <span className="dropdown__item-desc">
                 Gift the Experience: Delight your loved ones with the essence of
@@ -34,8 +38,8 @@ function NavbarDropdownMenu({ dropdownClicked }) {
               </span>
             </Link>
           </li>
-          <li className="dropdown__item">
-            <Link className="dropdown__link">
+          <li to="construction" className="dropdown__item">
+            <Link className="dropdown__link" onClick={dropdownClicked}>
               Order Foods
               <span className="dropdown__item-desc">
                 Savor the flavors of Café Nuwara from home. Explore our menu and
@@ -43,8 +47,8 @@ function NavbarDropdownMenu({ dropdownClicked }) {
               </span>
             </Link>
           </li>
-          <li className="dropdown__item">
-            <Link className="dropdown__link">
+          <li to="contact" className="dropdown__item">
+            <Link className="dropdown__link" onClick={dropdownClicked}>
               Contact us
               <span className="dropdown__item-desc">
                 Reach Out and Connect: Have questions or want to experience our
@@ -54,8 +58,8 @@ function NavbarDropdownMenu({ dropdownClicked }) {
             </Link>
           </li>
           <img src="/assets/svg/flower1.svg" alt="" />
-          <li className="dropdown__item">
-            <Link className="dropdown__link">
+          <li to="construction" className="dropdown__item">
+            <Link className="dropdown__link" onClick={dropdownClicked}>
               About us
               <span className="dropdown__item-desc">
                 Our Story, Your Experience: Discover the heart behind our

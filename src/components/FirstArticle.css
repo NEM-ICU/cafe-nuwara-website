@@ -5,6 +5,7 @@
   border-top: 1.5px solid black;
   padding-top: 1.5rem;
   margin-top: 4rem;
+  padding-bottom: 3rem;
   border-bottom: 1.5px solid black;
 }
 
@@ -69,7 +70,7 @@
 
 .second__paragraph p {
   padding-bottom: 1rem;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 /* Responsive */
