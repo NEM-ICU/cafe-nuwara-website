@@ -139,5 +139,5 @@ html {
 
 img {
   filter: grayscale(100%);
-  transition: filter 1.5s ease;
+  transition: filter 2s ease;
 }
