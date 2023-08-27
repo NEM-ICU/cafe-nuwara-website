@@ -7,7 +7,7 @@ function SecondArticle() {
       <div className="second__article__wrapper">
         <div className="first__box">
           <img
-            src="/assets/img/elephant.png"
+            src="/assets/svg/elephant.svg"
             id="elephant_sticker"
             alt="elephant"
           />

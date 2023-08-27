@@ -52,11 +52,11 @@
 }
 
 .kandy__forth__article__wrapper .forth__article__column__two p {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .kandy__forth__article__wrapper .forth__article__column__three p {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Responsive */
@@ -99,4 +99,8 @@
   .article__title__kandy .rink {
     width: 30rem;
   }
+}
+
+.kandy__forth__article {
+  margin-bottom: 8rem;
 }

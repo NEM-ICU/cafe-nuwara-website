@@ -10,7 +10,7 @@
 
 .third__article__wrapper {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .third__article__wrapper .second__box {
@@ -109,5 +109,10 @@
   }
   .third__article__wrapper .first__box img {
     width: 100%;
+  }
+
+  .third__article {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
   }
 }

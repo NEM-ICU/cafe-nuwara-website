@@ -29,22 +29,24 @@ function FirstArticle() {
               </p>
 
               <p className="article__one__p__three">
-                Indulge in a symphony of flavors as our skilled chefs craft a
-                menu that celebrates the richness of local ingredients and
-                global influences. From aromatic Ceylon teas to delectable bites
-                that blend traditional recipes with contemporary twists, every
-                dish is a masterpiece. But Café Nuwara is more than just a
-                dining destination – it's a cultural rendezvous. Immerse
-                yourself in the rhythm of Kandyan life as you savor flavors,
-                share stories, and create memories.
+                Indulge in a symphony of flavors as our skilled chefs expertly
+                craft a tantalizing menu that celebrates the richness of local
+                ingredients and diverse global influences. From the enchanting
+                aroma of Ceylon teas to delectable bites seamlessly blending
+                traditional recipes with creative twists, every dish is a
+                masterpiece of culinary innovation. However, Café Nuwara offers
+                more than a dining destination – it's a vibrant cultural
+                rendezvous. Immerse yourself in the rhythmic tapestry of Kandyan
+                life as you savor flavors, share captivating stories, and create
+                cherished memories.
               </p>
             </div>
           </div>
           <div className="second__paragraph">
             <p className="article__two__p__one">
-              Whether it's a leisurely afternoon tea or a hearty meal with loved
-              ones, every moment at Café Nuwara is an ode to the past and a
-              celebration of the present.
+              Whether it's a leisurely afternoon tea or a hearty, unforgettable
+              meal with loved ones, every moment at Café Nuwara is an eloquent
+              ode to the past and a jubilant celebration of the present.
             </p>
             <p className="article__two__p__two">
               Join us in embracing the fusion of history and flavor at Café

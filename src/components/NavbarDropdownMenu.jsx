@@ -39,7 +39,11 @@ function NavbarDropdownMenu({ dropdownClicked }) {
             </Link>
           </li>
           <li to="construction" className="dropdown__item">
-            <Link className="dropdown__link" onClick={dropdownClicked}>
+            <Link
+              className="dropdown__link"
+              onClick={dropdownClicked}
+              to="https://www.ubereats.com/lk/store/cafe-nuwara-kandy/JpxuTioeXCK628_NQEWQew"
+            >
               Order Foods
               <span className="dropdown__item-desc">
                 Savor the flavors of Café Nuwara from home. Explore our menu and
@@ -48,7 +52,11 @@ function NavbarDropdownMenu({ dropdownClicked }) {
             </Link>
           </li>
           <li to="contact" className="dropdown__item">
-            <Link className="dropdown__link" onClick={dropdownClicked}>
+            <Link
+              className="dropdown__link"
+              onClick={dropdownClicked}
+              to="contact"
+            >
               Contact us
               <span className="dropdown__item-desc">
                 Reach Out and Connect: Have questions or want to experience our
@@ -59,7 +67,11 @@ function NavbarDropdownMenu({ dropdownClicked }) {
           </li>
           <img src="/assets/svg/flower1.svg" alt="" />
           <li to="construction" className="dropdown__item">
-            <Link className="dropdown__link" onClick={dropdownClicked}>
+            <Link
+              className="dropdown__link"
+              onClick={dropdownClicked}
+              to="nuwara"
+            >
               About us
               <span className="dropdown__item-desc">
                 Our Story, Your Experience: Discover the heart behind our

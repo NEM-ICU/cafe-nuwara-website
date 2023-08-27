@@ -10,7 +10,7 @@
 
 .second__article__wrapper {
   display: grid;
-  gap: 20px;
+  gap: 30px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   margin-top: 3rem;
@@ -66,5 +66,10 @@
   .second__article__wrapper {
     display: flex;
     flex-direction: column;
+  }
+
+  .second__article {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
   }
 }

@@ -10,7 +10,7 @@ const ThirdArticle = () => {
         </div>
         <div className="second__box">
           <img src="/assets/svg/flower1.svg" alt="flower" />
-          <h1>The Vibe</h1>
+          <h1>Heritage</h1>
           <p>
             Café Nuwara embodies the essence of Kandyan heritage, seamlessly
             weaving the city's rich legacy into every experience. Our ambiance

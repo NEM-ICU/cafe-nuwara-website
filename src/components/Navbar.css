@@ -56,6 +56,10 @@
   font-size: 1.2rem;
 }
 
+#et-cetra {
+  cursor: pointer;
+}
+
 .desktop__ver {
   display: flex;
   justify-content: space-between;

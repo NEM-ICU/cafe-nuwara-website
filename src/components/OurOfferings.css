@@ -41,7 +41,7 @@
 }
 
 .first__box .second__content__box img {
-  width: 35rem;
+  width: 36.7rem;
 }
 
 .first__box .third__content__box img {
@@ -75,7 +75,7 @@
 
 .our__offerings__wrapper .second__box__wrapper {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2.1fr 0.9fr;
   border-bottom: black 2px solid;
   padding-bottom: 3rem;
 }
@@ -157,6 +157,11 @@
 
 @media screen and (max-width: 544px) {
   /* Styles for screens below 544px */
+  #barista__img {
+    margin-top: 0rem;
+    padding-bottom: 4.5rem;
+    border-bottom: 2px solid #383a3b;
+  }
 
   .first__box .second__content__box {
     display: flex;
@@ -192,10 +197,12 @@
 
   .second__box .first__content__box img {
     width: 100%;
+    padding: 0 !important;
   }
 
   .second__box .second__content__box img {
     width: 100%;
+    padding: 0 !important;
   }
 
   .second__box .third__content__box img {

@@ -104,6 +104,7 @@
   #rajasinghe__img {
     width: 100%;
   }
+
   .nuwara__second__article__wrapper
     .nuwara__second__content__box
     .first__row__box {
@@ -114,6 +115,20 @@
   .nuwara__second__article__wrapper
     .nuwara__second__content__box
     .first__row__box
+    img {
+    width: 100%;
+  }
+
+  .nuwara__second__article__wrapper
+    .nuwara__second__content__box
+    .second__column__box
+    img {
+    width: 100%;
+  }
+
+  .nuwara__second__article__wrapper
+    .nuwara__second__content__box
+    .second__row__box
     img {
     width: 100%;
   }

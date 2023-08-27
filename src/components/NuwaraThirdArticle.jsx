@@ -12,10 +12,7 @@ const NuwaraThirdArticle = () => {
             </div>
             <div className="article__boxes">
               <div className="third__sub__article__one">
-                <img
-                  src="/assets/img/third-one.jpg"
-                  alt="tooth-temple"
-                />
+                <img src="/assets/img/third-one.jpg" alt="tooth-temple" />
                 <p>
                   Enshrined within Kandy's heart, the Temple of Tooth Relic
                   stands as an awe-inspiring tribute to faith and history. A
@@ -31,25 +28,24 @@ const NuwaraThirdArticle = () => {
               <div className="third__sub__article__two">
                 <img src="/assets/img/third-two.jpg" alt="wall-paint" />
                 <p>
-                  The Temple of Tooth Relic, nestled in Kandy, serves as a
-                  living testament to Sri Lanka's rich history and the essence
-                  of Kandyan culture. Its revered halls cradle a relic steeped
-                  in significance, resonating with tales of kings and dynasties.
-                  This sacred sanctuary echoes the heartbeats of bygone eras,
-                  encapsulating the evolution of Sri Lanka's heritage, while
-                  standing as an emblem of Kandyan pride and cultural endurance.
+                  The Temple of the Tooth Relic, nestled serenely in Kandy,
+                  stands as a living testament to Sri Lanka's profound history
+                  and the very essence of Kandyan culture. Its hallowed halls
+                  embrace a sacred relic imbued with deep significance,
+                  resonating with stories of monarchs and dynasties that shaped
+                  the land. This revered sanctuary resounds with the echoes of
+                  centuries past, encapsulating the intricate evolution of Sri
+                  Lanka's heritage, while proudly symbolizing Kandyan pride and
+                  the enduring strength of its cultural legacy.
                 </p>
               </div>
             </div>
           </div>
           <div className="third__article__second__column">
-            <img
-              src="/assets/img/third-three.jpg"
-              alt="esala-perahera"
-            />
+            <img src="/assets/img/third-three.jpg" alt="esala-perahera" />
             <h2>Kandy Esala Perahera</h2>
             <p>
-              The Esala Perahera is a captivating cultural event in Kandy, Sri
+              {/* The Esala Perahera is a captivating cultural event in Kandy, Sri
               Lanka. This annual religious festival centers around the
               veneration of the Sacred Tooth Relic of the Buddha. Over ten
               nights, the city comes alive with a mesmerizing procession
@@ -60,7 +56,15 @@ const NuwaraThirdArticle = () => {
               witness this splendid spectacle, celebrating both spiritual
               devotion and the rich cultural heritage of Sri Lanka. The Esala
               Perahera stands as a testament to the country's traditions and
-              community spirit.
+              community spirit. */}
+              The Esala Perahera, a captivating cultural event in Kandy, Sri
+              Lanka, annually honors the Sacred Tooth Relic of the Buddha. Over
+              ten vibrant nights, the city hosts a mesmerizing procession with
+              adorned elephants, dancers, musicians, and floats. Illuminated
+              streets create an enchanting atmosphere for pilgrims and global
+              spectators, celebrating spiritual devotion and Sri Lanka's rich
+              heritage. The Esala Perahera embodies tradition and community, a
+              testament to the country's cultural spirit.
             </p>
           </div>
         </div>
