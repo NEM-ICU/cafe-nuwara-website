@@ -2,9 +2,9 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
-  Link,
   Outlet,
   RouterProvider,
+  useLocation,
 } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
@@ -18,26 +18,15 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import UnderConstruction from "./pages/UnderConstruction";
 
 // color changin feature
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
-  // useEffect(() => {
-  //   const images = document.querySelectorAll("img");
-  //   const observer = new IntersectionObserver((entries) => {
-  //     entries.forEach((entry) => {
-  //       console.log(entry);
-  //     });
-  //   });
-
-  //   images.forEach((image) => {
-  //     observer.observe(image);
-  //   });
-  // }, []);
-
+  const [path, setPath] = useState("/");
   useEffect(() => {
     const images = document.querySelectorAll("img");
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
+        // console.log(entry);
         const image = entry.target;
 
         if (entry.isIntersecting) {
@@ -60,7 +49,7 @@ function App() {
         observer.unobserve(image);
       });
     };
-  }, []);
+  }, [path]);
 
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -68,7 +57,7 @@ function App() {
         path="/"
         element={
           <>
-            <Root />
+            <Root setPath={setPath} />
           </>
         }
       >
@@ -90,7 +79,10 @@ function App() {
   );
 }
 
-const Root = () => {
+const Root = ({ setPath }) => {
+  const location = useLocation();
+  setPath(location.pathname);
+
   return (
     <>
       <Navbar />
