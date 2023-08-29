@@ -21,10 +21,12 @@ const Footer = () => {
             </div>
             <div className="review__container">
               <p>Review Us On TripAdvisor</p>
-              <img
-                src="/assets/svg/tripadvisor-review.svg"
-                alt="tripadvisor-icon"
-              />
+              <Link to="https://www.tripadvisor.com/Restaurant_Review-g304138-d26326255-Reviews-Cafe_Nuwara-Kandy_Kandy_District_Central_Province.html?m=19905">
+                <img
+                  src="/assets/svg/tripadvisor-review.svg"
+                  alt="tripadvisor-icon"
+                />
+              </Link>
             </div>
           </div>
           <div className="second__container">
@@ -143,10 +145,12 @@ const Footer = () => {
               </div>
             </div>
             <div className="tripadvisor__logo">
-              <img
-                src="/assets/svg/tripadvisor-review.svg"
-                alt="tripAdvisor-logo"
-              />
+              <Link to="https://www.tripadvisor.com/Restaurant_Review-g304138-d26326255-Reviews-Cafe_Nuwara-Kandy_Kandy_District_Central_Province.html?m=19905">
+                <img
+                  src="/assets/svg/tripadvisor-review.svg"
+                  alt="tripAdvisor-logo"
+                />
+              </Link>
             </div>
             <div className="powered__by__magicle">
               <h2>Powerd by magicle labs</h2>

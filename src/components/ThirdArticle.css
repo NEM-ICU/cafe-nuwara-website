@@ -53,8 +53,8 @@
   font-size: 1.5em;
   padding: 5px 0;
   margin-top: 2.1rem;
-
-  z-index: -1;
+  cursor: pointer;
+  z-index: 2;
 }
 
 .o-btn--decorative:before,
@@ -77,6 +77,12 @@
   left: -1px;
   width: calc(100% + 2px);
   height: calc(100% + 8px);
+}
+
+.o-btn--decorative:hover {
+  background-color: rgba(91, 91, 91, 0.88);
+  /* text-decoration: underline; */
+  transform: scaleX(1);
 }
 
 /* Responsive */

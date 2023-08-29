@@ -10,7 +10,7 @@ const NuwaraForthArticle = () => {
           <div className="article__title__kandy">
             <img src="/assets/svg/flower4.png" alt="flower" />
             <h2>Exploring Kandy: Essential Places to Visit</h2>
-            <img src="/assets/svg/rink-black.svg" className="rink" alt="rink" />
+            <img src="/assets/svg/line4.svg" className="rink" alt="rink" />
           </div>
           <div className="forth__article__content">
             <div className="forth__article__column__one">

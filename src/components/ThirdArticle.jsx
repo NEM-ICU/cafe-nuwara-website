@@ -1,7 +1,13 @@
 import React from "react";
 import "./ThirdArticle.css";
+import { useNavigate } from "react-router-dom";
 
 const ThirdArticle = () => {
+  const navigate = useNavigate();
+
+  function navigateTo() {
+    navigate("/nuwara");
+  }
   return (
     <div className="third__article container">
       <div className="third__article__wrapper">
@@ -22,7 +28,9 @@ const ThirdArticle = () => {
             immersing yourself in the living heritage of a city that thrives
             within Café Nuwara's walls.
           </p>
-          <button className="o-btn--decorative">Explore the Heritage</button>
+          <button onClick={navigateTo} className="o-btn--decorative">
+            Explore the Heritage
+          </button>
         </div>
       </div>
     </div>

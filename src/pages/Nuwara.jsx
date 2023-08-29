@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NuwaraFirstArticle from "../components/NuwaraFirstArticle";
 import NuwaraSecondArticle from "../components/NuwaraSecondArticle";
 import NuwaraThirdArticle from "../components/NuwaraThirdArticle";
@@ -8,6 +8,9 @@ import NuwaraGalleryOne from "../components/NuwaraGalleryOne";
 import NuwaraGalleryTwo from "../components/NuwaraGalleryTwo";
 
 const Nuwara = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
   return (
     <div>
       <NuwaraFirstArticle />

@@ -34,7 +34,7 @@ const OurOfferings = () => {
                   Barista
                 </h2>
                 <p className="our__offerings__paragraph_3 our__offering_p">
-                  Crafting Coffee Elegance: Our Barista, a true artisan,
+                  {/* Crafting Coffee Elegance: Our Barista, a true artisan,
                   meticulously curates coffee experiences that harmonize the
                   timeless allure of colonial era with the vibrant spirit of
                   Kandyan heritage. With each pour, they blend the past and
@@ -42,13 +42,25 @@ const OurOfferings = () => {
                   essence of Sri Lanka. Join us in savoring every sip as our
                   Barista's expertise unfolds in every cup, weaving a tale of
                   tradition and innovation that captures the essence of our
-                  cafe's cultural fusion.
+                  cafe's cultural fusion. */}
+                  Crafting Coffee Elegance: Our Barista, a true artisan,
+                  meticulously curates coffee experiences that harmonize the
+                  timeless allure of colonial era with the vibrant spirit of
+                  Kandyan heritage. With each pour, they blend the past and
+                  present, offering you a symphony of flavors that reflect the
+                  essence of Sri Lanka. Join us in savoring every sip as our
+                  Barista's expertise unfolds in every cup, weaving a tale of
+                  tradition, innovation, and taste that captures the essence of
+                  our cafe's cultural fusion.
                 </p>
               </div>
             </div>
             <div className="third__content__box">
               <div className="box__content__box">
-                <h2 className="offering__heading barista_heading" id="evets__and__parties__heading">
+                <h2
+                  className="offering__heading barista_heading"
+                  id="evets__and__parties__heading"
+                >
                   Events & Parties
                 </h2>
                 <p className="our__offerings__paragraph_2 our__offering_p">

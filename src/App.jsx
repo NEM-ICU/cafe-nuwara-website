@@ -10,8 +10,6 @@ import "./App.css";
 import Home from "./pages/Home";
 import Nuwara from "./pages/Nuwara";
 import Navbar from "./components/Navbar";
-import Menu from "./pages/Menu";
-import Store from "./pages/Store";
 import Gallery from "./pages/Gallery";
 import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -31,10 +29,10 @@ function App() {
 
         if (entry.isIntersecting) {
           // Add grayscale filter when the image is in view
-          image.style.filter = "none";
+          image.style.filter = "none"; // Removes the grayscale filter, making the image colorful
         } else {
           // Remove grayscale filter when the image is out of view
-          // image.style.filter = "none";
+          image.style.filter = "grayscale(100%)"; // Applies a grayscale filter to the image
         }
       });
     });
@@ -63,8 +61,6 @@ function App() {
       >
         <Route index element={<Home />} />
         <Route path="nuwara" element={<Nuwara />} />
-        <Route path="menu" element={<Menu />} />
-        <Route path="store" element={<Store />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="contact" element={<ContactUs />} />
         <Route path="policy" element={<PrivacyPolicy />} />
