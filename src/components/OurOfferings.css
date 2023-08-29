@@ -49,19 +49,21 @@
 }
 
 .second__box .first__content__box img {
-  width: 40rem;
-  padding: 0.8rem;
+  width: 35rem;
 }
 
 .second__box .second__content__box img {
-  width: 40rem;
-  padding: 0.8rem;
+  width: 35rem;
 }
 
 .second__box .third__content__box img {
   width: 35rem;
   margin-bottom: 1rem;
   padding: 0.8rem;
+}
+
+#photo_and_video_shoots_img {
+  padding: 0 !important;
 }
 
 .second__box__wrapper {
