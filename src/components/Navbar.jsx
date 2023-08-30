@@ -74,7 +74,9 @@ function Navbar() {
             </div>
           </div>
         </nav>
-        {dropdownClicked && <NavbarDropdownMenu dropdownClicked={dropdownClicked}/>}
+        {dropdownClicked && (
+          <NavbarDropdownMenu dropdownClicked={dropdownClicked} />
+        )}
       </div>
       {mobileNavToggle && (
         <MobileNavbar mobileNavbarHandler={mobileNavbarHandler} />
