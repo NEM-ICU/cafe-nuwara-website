@@ -39,8 +39,8 @@ const PinterestLayout = () => {
         <Pin size="small" imgUrl="/assets/img/g-img-21.jpg" />
         <Pin size="small" imgUrl="/assets/img/g-img-23.jpg" />
         <Pin size="medium" imgUrl="/assets/img/g-img-30.jpg" />
-        <Pin size="large" imgUrl="/assets/img/g-img-33.jpg" />
-        <Pin size="large" imgUrl="/assets/img/g-img-34.jpg" />
+        {/* <Pin size="large" imgUrl="/assets/img/g-img-33.jpg" />
+        <Pin size="large" imgUrl="/assets/img/g-img-34.jpg" /> */}
         <Pin size="small" imgUrl="/assets/img/g-img-24.jpg" />
         <Pin size="medium" imgUrl="/assets/img/g-img-41.jpg" />
         <Pin size="medium" imgUrl="/assets/img/g-img-43.jpeg" />
