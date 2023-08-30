@@ -39,8 +39,8 @@ const PinterestLayout = () => {
         <Pin size="small" imgUrl="/assets/img/g-img-21.jpg" />
         <Pin size="small" imgUrl="/assets/img/g-img-23.jpg" />
         <Pin size="medium" imgUrl="/assets/img/g-img-30.jpg" />
-        {/* <Pin size="large" imgUrl="/assets/img/g-img-33.jpg" />
-        <Pin size="large" imgUrl="/assets/img/g-img-34.jpg" /> */}
+        <Pin size="large" imgUrl="/assets/img/g-img-33.jpg" />
+        <Pin size="large" imgUrl="/assets/img/g-img-34.jpg" />
         <Pin size="small" imgUrl="/assets/img/g-img-24.jpg" />
         <Pin size="medium" imgUrl="/assets/img/g-img-41.jpg" />
         <Pin size="medium" imgUrl="/assets/img/g-img-43.jpeg" />
@@ -49,11 +49,11 @@ const PinterestLayout = () => {
         <Pin size="small" imgUrl="/assets/img/g-img-27.jpg" />
         <Pin size="medium" imgUrl="/assets/img/g-img-47.jpeg" />
         <Pin size="large" imgUrl="/assets/img/g-img-36.jpeg" />
-        <Pin size="large" imgUrl="/assets/img/g-img-37.jpg" />
-        <Pin size="large" imgUrl="/assets/img/g-img-38.jpg" />
-        <Pin size="large" imgUrl="/assets/img/g-img-39.jpg" />
-        <Pin size="large" imgUrl="/assets/img/g-img-40.jpg" />
-        <Pin size="large" imgUrl="/assets/img/g-img-42.jpg" />
+        <Pin size="large" imgUrl="/assets/img/g-img-37.png" />
+        <Pin size="large" imgUrl="/assets/img/g-img-38.png" />
+        <Pin size="large" imgUrl="/assets/img/g-img-39.png" />
+        <Pin size="large" imgUrl="/assets/img/g-img-40.png" />
+        <Pin size="large" imgUrl="/assets/img/g-img-42.png" />
         <Pin size="large" imgUrl="/assets/img/g-img-44.jpeg" />
         <Pin size="large" imgUrl="/assets/img/g-img-45.jpeg" />
         <Pin size="medium" imgUrl="/assets/img/g-img-48.jpeg" />
