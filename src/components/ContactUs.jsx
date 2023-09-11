@@ -43,7 +43,9 @@ const ContactUs = () => {
             <div className="contact__us__box1">
               <div className="contact__us__link__item">
                 <h2>facebook</h2>
-                <Link to="/"> like us</Link>
+                <Link to="https://www.facebook.com/profile.php?id=100092030667404">
+                  like us
+                </Link>
               </div>
               <div className="contact__us__link__item">
                 <h2>youtube</h2>
@@ -53,17 +55,19 @@ const ContactUs = () => {
             <div className="contact__us__box2">
               <div className="contact__us__link__item">
                 <h2>instagram</h2>
-                <Link to="/"> follow us</Link>
+                <Link to="https://www.instagram.com/cafenuwara/">
+                  follow us
+                </Link>
               </div>
               <div className="contact__us__link__item">
                 <h2>email us</h2>
-                <Link to="/"> info@nuwara.cafe</Link>
+                <Link to="mailto:info@nuwara.cafe"> info@nuwara.cafe</Link>
               </div>
             </div>
             <div className="contact__us__box3">
               <div className="contact__us__link__item">
                 <h2>store enquiries</h2>
-                <Link to="/"> info@nuwara.cafe</Link>
+                <Link to="mailto:info@nuwara.cafe"> info@nuwara.cafe</Link>
               </div>
             </div>
           </div>
