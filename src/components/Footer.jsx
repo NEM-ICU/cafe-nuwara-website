@@ -15,8 +15,8 @@ const Footer = () => {
               <p>20000</p>
             </div>
             <div className="contact">
-              <p>Hotline - +947612346789</p>
-              <p>WhatsApp - +94213211354</p>
+              <p>Hotline - +94 76 022 1222</p>
+              <p>WhatsApp - +94 72 22 80404</p>
               <p>Email - info@nuwara.cafe</p>
             </div>
             <div className="review__container">
@@ -139,9 +139,9 @@ const Footer = () => {
                 <p>TripAdvisor</p>
               </div>
               <div className="box__contact__3">
-                <p>+947612346789</p>
-                <p>+94213211354</p>
-                <p>Info@Nuwara.Cafe</p>
+                <p>+94 76 022 1222</p>
+                <p>+94 72 22 80404</p>
+                <p>info@nuwara.Cafe</p>
               </div>
             </div>
             <div className="tripadvisor__logo">
@@ -153,7 +153,9 @@ const Footer = () => {
               </Link>
             </div>
             <div className="powered__by__magicle">
-              <h2>Powerd by magicle labs</h2>
+              <Link to="https://magicle.tech/">
+                <h2>Powerd by magicle labs</h2>
+              </Link>
             </div>
           </div>
         </div>
@@ -162,7 +164,9 @@ const Footer = () => {
             <Link to="policy">Privacy Policy</Link>
           </div>
           <div className="second__box">
-            <h2>Powerd By Magicle Labs</h2>
+            <Link to="https://magicle.tech/">
+              <h2>Powerd By Magicle Labs</h2>
+            </Link>
           </div>
           <div className="third__box">
             <div className="item1">Join Cafe Nuwara</div>

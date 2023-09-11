@@ -237,7 +237,12 @@
   text-align: center;
 }
 
+.contact {
+  text-transform: lowercase;
+}
+
 .box__contact__3 {
+  text-transform: lowercase;
   text-align: end;
 }
 
